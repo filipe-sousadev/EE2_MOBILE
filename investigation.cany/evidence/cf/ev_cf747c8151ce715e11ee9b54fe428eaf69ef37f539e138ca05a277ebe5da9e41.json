@@ -1,0 +1,91 @@
+{
+  "id": "ev_cf747c8151ce715e11ee9b54fe428eaf69ef37f539e138ca05a277ebe5da9e41",
+  "subject": {
+    "kind": "pe",
+    "sha256": "8de8228d3366bb61c629382b48704e93bd14b00d57eabf2bfed6b943f323962d",
+    "name": "GOG_Galaxy_Empire_Earth_2_Gold_Edition.exe"
+  },
+  "operation": "native_strings_find",
+  "params": {
+    "case_sensitive": false,
+    "limit": 60,
+    "mode": "regex",
+    "offset": 0,
+    "pattern": "(damage|health|hit ?points|epoch|unit|villager|citizen|attack|speed|empire|galaxy|gog|download|http)"
+  },
+  "result": {
+    "matches": [
+      {
+        "address": "0x50b6dd",
+        "references": [],
+        "section": ".rsrc",
+        "text": "ܳgOG2,"
+      },
+      {
+        "address": "0x520970",
+        "references": [],
+        "section": ".rsrc",
+        "text": "GOG Sp. z o.o."
+      },
+      {
+        "address": "0x5209b8",
+        "references": [],
+        "section": ".rsrc",
+        "text": "Empire Earth 2 Gold Edition"
+      },
+      {
+        "address": "0x520a40",
+        "references": [],
+        "section": ".rsrc",
+        "text": "GOG Galaxy - Game Installer.exe"
+      },
+      {
+        "address": "0x520aa4",
+        "references": [],
+        "section": ".rsrc",
+        "text": "(C) GOG Sp. z o.o. 2020"
+      },
+      {
+        "address": "0x520af4",
+        "references": [],
+        "section": ".rsrc",
+        "text": "GOG Galaxy - Game Installer.exe"
+      },
+      {
+        "address": "0x520b54",
+        "references": [],
+        "section": ".rsrc",
+        "text": "Empire Earth 2 Gold Edition"
+      },
+      {
+        "address": "0x521274",
+        "references": [],
+        "section": ".rsrc",
+        "text": "URLDownloadToFileW"
+      }
+    ],
+    "total": 8
+  },
+  "summary": "8 strings match \"(damage|health|hit ?points|epoch|unit|villager|citizen|attack|speed|empire|galaxy|gog|download|http)\".",
+  "confidence": "observed",
+  "authority": "original-files",
+  "environment": {
+    "clean_room": false,
+    "engine": "builtin",
+    "engine_version": "0.6.1",
+    "host": "linux-x86_64"
+  },
+  "limitations": [
+    {
+      "code": "data_sections_only",
+      "message": "only strings stored in the file are searched (absence is not proof)"
+    }
+  ],
+  "coverage": {
+    "status": "complete",
+    "examined": 8,
+    "total": 8
+  },
+  "locations": [],
+  "links": []
+}

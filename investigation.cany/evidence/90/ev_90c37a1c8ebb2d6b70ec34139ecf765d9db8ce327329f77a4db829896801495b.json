@@ -1,0 +1,30 @@
+{
+  "id": "ev_90c37a1c8ebb2d6b70ec34139ecf765d9db8ce327329f77a4db829896801495b",
+  "subject": {
+    "kind": "engine",
+    "name": "adb"
+  },
+  "operation": "adb_devices_find",
+  "params": {},
+  "result": {
+    "count": 0,
+    "devices": [],
+    "online": 0
+  },
+  "summary": "0 device(s) attached, 0 online.",
+  "confidence": "observed",
+  "authority": "outside-service",
+  "environment": {
+    "clean_room": false,
+    "engine": "adb",
+    "host": "linux-x86_64"
+  },
+  "limitations": [],
+  "coverage": {
+    "status": "complete",
+    "examined": 0,
+    "total": 0
+  },
+  "locations": [],
+  "links": []
+}

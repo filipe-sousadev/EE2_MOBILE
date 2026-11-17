@@ -1,0 +1,80 @@
+{
+  "id": "ev_3555cd6e80d2506d9ce56414e86d31e1e2d10613cb1ed1908d3e2a2c50241ae1",
+  "subject": {
+    "kind": "pe",
+    "sha256": "8de8228d3366bb61c629382b48704e93bd14b00d57eabf2bfed6b943f323962d",
+    "name": "GOG_Galaxy_Empire_Earth_2_Gold_Edition.exe"
+  },
+  "operation": "native_functions_decompile",
+  "params": {
+    "addresses": [
+      "0x435126",
+      "0x4a6000"
+    ]
+  },
+  "result": {
+    "failed": 0,
+    "items": [
+      {
+        "entry": "0x435126",
+        "input": "0x435126",
+        "limitations": [
+          "register_level",
+          "calling_convention_assumed",
+          "conditions_from_flags",
+          "unstructured_flow"
+        ],
+        "ok": true,
+        "pseudo_code": "void sub_435126()\n{\n    goto label_0;\n}\n",
+        "signature": "void sub_435126()",
+        "structured": false
+      },
+      {
+        "entry": "0x4a6000",
+        "input": "0x4a6000",
+        "limitations": [
+          "register_level",
+          "calling_convention_assumed",
+          "conditions_from_flags",
+          "unstructured_flow"
+        ],
+        "ok": true,
+        "pseudo_code": "void sub_4a6000()\n{\n    goto label_0;\n}\n",
+        "signature": "void sub_4a6000()",
+        "structured": false
+      }
+    ],
+    "succeeded": 2
+  },
+  "summary": "Decompiled 2 of 2 functions.",
+  "confidence": "inferred",
+  "authority": "original-files",
+  "environment": {
+    "clean_room": false,
+    "engine": "builtin",
+    "engine_version": "0.6.1",
+    "host": "linux-x86_64"
+  },
+  "limitations": [
+    {
+      "code": "pseudo_code_inferred",
+      "message": "pseudo-C from the clean-room lifter is register-level and approximate"
+    }
+  ],
+  "coverage": {
+    "status": "complete",
+    "examined": 2,
+    "total": 2
+  },
+  "locations": [
+    {
+      "kind": "address",
+      "value": "0x435126"
+    },
+    {
+      "kind": "address",
+      "value": "0x4a6000"
+    }
+  ],
+  "links": []
+}

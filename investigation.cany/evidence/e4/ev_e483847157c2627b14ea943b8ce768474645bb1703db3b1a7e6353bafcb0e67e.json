@@ -1,0 +1,74 @@
+{
+  "id": "ev_e483847157c2627b14ea943b8ce768474645bb1703db3b1a7e6353bafcb0e67e",
+  "subject": {
+    "kind": "pe",
+    "sha256": "8de8228d3366bb61c629382b48704e93bd14b00d57eabf2bfed6b943f323962d",
+    "name": "GOG_Galaxy_Empire_Earth_2_Gold_Edition.exe"
+  },
+  "operation": "native_functions_list",
+  "params": {
+    "limit": 200,
+    "offset": 0
+  },
+  "result": {
+    "functions": [
+      {
+        "address": "0x435126",
+        "blocks": 0,
+        "found_by": "call",
+        "instructions": 0,
+        "name": "sub_435126",
+        "name_source": "generated",
+        "size": 0,
+        "thunk_of": null
+      },
+      {
+        "address": "0x4a6000",
+        "blocks": 0,
+        "found_by": "code_pointer",
+        "instructions": 0,
+        "name": "sub_4a6000",
+        "name_source": "generated",
+        "size": 0,
+        "thunk_of": null
+      },
+      {
+        "address": "0x501620",
+        "blocks": 57,
+        "found_by": "entry_point",
+        "instructions": 200,
+        "name": "entry",
+        "name_source": "entry_point",
+        "size": 472,
+        "thunk_of": null
+      }
+    ],
+    "total": 3
+  },
+  "summary": "3 functions (showing 3).",
+  "confidence": "derived",
+  "authority": "original-files",
+  "environment": {
+    "clean_room": false,
+    "engine": "builtin",
+    "engine_version": "0.6.1",
+    "host": "linux-x86_64"
+  },
+  "limitations": [
+    {
+      "code": "stripped_binary",
+      "message": "no local symbols: most function names are generated (sub_…)"
+    },
+    {
+      "code": "static_analysis_only",
+      "message": "functions reached only through computed pointers or at run time may be missing; absence is not proof"
+    }
+  ],
+  "coverage": {
+    "status": "complete",
+    "examined": 3,
+    "total": 3
+  },
+  "locations": [],
+  "links": []
+}

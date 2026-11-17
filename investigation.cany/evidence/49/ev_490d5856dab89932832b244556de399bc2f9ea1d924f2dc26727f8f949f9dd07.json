@@ -1,0 +1,397 @@
+{
+  "id": "ev_490d5856dab89932832b244556de399bc2f9ea1d924f2dc26727f8f949f9dd07",
+  "subject": {
+    "kind": "pe",
+    "sha256": "c9eb405f66a08d9216b1a34b22e13e425119665f3e5159fbc7f6fe722a4a4a5d",
+    "name": "installer_unpacked.exe"
+  },
+  "operation": "native_strings_find",
+  "params": {
+    "case_sensitive": false,
+    "limit": 40,
+    "mode": "regex",
+    "offset": 0,
+    "pattern": "(https?://|gog\\.com|gameId|game_id|productId|1[0-9]{9})"
+  },
+  "result": {
+    "matches": [
+      {
+        "address": "0x473408",
+        "references": [
+          {
+            "from": "0x408526",
+            "function": "sub_4084f0"
+          },
+          {
+            "from": "0x408569",
+            "function": "sub_4084f0"
+          }
+        ],
+        "section": ".rdata",
+        "text": "Software\\WOW6432NODE\\GOG.com\\GalaxyClient\\paths"
+      },
+      {
+        "address": "0x473468",
+        "references": [
+          {
+            "from": "0x408291",
+            "function": "sub_408251"
+          },
+          {
+            "from": "0x4082c8",
+            "function": "sub_408251"
+          },
+          {
+            "from": "0x4085db",
+            "function": "sub_4084f0"
+          },
+          {
+            "from": "0x4085f0",
+            "function": "sub_4084f0"
+          }
+        ],
+        "section": ".rdata",
+        "text": "Software\\WOW6432Node\\GOG.com\\GalaxyClient"
+      },
+      {
+        "address": "0x4734c0",
+        "references": [
+          {
+            "from": "0x408553",
+            "function": "sub_4084f0"
+          },
+          {
+            "from": "0x408564",
+            "function": "sub_4084f0"
+          }
+        ],
+        "section": ".rdata",
+        "text": "Software\\GOG.com\\GalaxyClient\\paths"
+      },
+      {
+        "address": "0x473508",
+        "references": [
+          {
+            "from": "0x4082ab",
+            "function": "sub_408251"
+          },
+          {
+            "from": "0x4085a3",
+            "function": "sub_4084f0"
+          },
+          {
+            "from": "0x4085b8",
+            "function": "sub_4084f0"
+          }
+        ],
+        "section": ".rdata",
+        "text": "Software\\GOG.com\\GalaxyClient"
+      },
+      {
+        "address": "0x4738fd",
+        "references": [],
+        "section": ".rdata",
+        "text": "#Ǌ00010203040506070809101112131415161718192021222324252627282930313233343536373839404142434445464748495051525354555657585960616263646566676869707172737475767778798081828384858687888990919293949596979899"
+      },
+      {
+        "address": "0x476020",
+        "references": [],
+        "section": ".rdata",
+        "text": "upport.gog.com"
+      },
+      {
+        "address": "0x4760b8",
+        "references": [],
+        "section": ".rdata",
+        "text": "upport.gog.com"
+      },
+      {
+        "address": "0x476174",
+        "references": [],
+        "section": ".rdata",
+        "text": "upport.gog.com"
+      },
+      {
+        "address": "0x47621e",
+        "references": [],
+        "section": ".rdata",
+        "text": " support.gog.com"
+      },
+      {
+        "address": "0x4762a0",
+        "references": [
+          {
+            "from": "0x4150d2",
+            "function": "sub_415075"
+          }
+        ],
+        "section": ".rdata",
+        "text": "El instalador web de GOG Galaxy requiere .NET Framework para continuar. Visita support.gog.com para recibir ayuda."
+      },
+      {
+        "address": "0x4763d0",
+        "references": [
+          {
+            "from": "0x4150b4",
+            "function": "sub_415075"
+          }
+        ],
+        "section": ".rdata",
+        "text": "GOG Galaxy Web Installer richiede .NET Framework per continuare. Per ricevere assistenza, contatta support.gog.com."
+      },
+      {
+        "address": "0x4764f8",
+        "references": [
+          {
+            "from": "0x415139",
+            "function": "sub_415075"
+          }
+        ],
+        "section": ".rdata",
+        "text": "O GOG Galaxy requer o .NET Framework para continuar. Entre em contato com support.gog.com para obter aux"
+      },
+      {
+        "address": "0x4766b0",
+        "references": [],
+        "section": ".rdata",
+        "text": " support.gog.com."
+      },
+      {
+        "address": "0x4767c0",
+        "references": [],
+        "section": ".rdata",
+        "text": "ltst du unter support.gog.com/hc/de."
+      },
+      {
+        "address": "0x476872",
+        "references": [],
+        "section": ".rdata",
+        "text": "cessite le framework .NET pour poursuivre. Contactez le support.gog.com pour obtenir une assistance."
+      },
+      {
+        "address": "0x476a22",
+        "references": [],
+        "section": ".rdata",
+        "text": " z support.gog.com, aby uzyska"
+      },
+      {
+        "address": "0x476aa8",
+        "references": [
+          {
+            "from": "0x415121",
+            "function": "sub_415075"
+          }
+        ],
+        "section": ".rdata",
+        "text": "GOG Galaxy Web Installer requires .NET Framework to proceed. Contact support.gog.com for assistance."
+      },
+      {
+        "address": "0x476bb8",
+        "references": [],
+        "section": ".rdata",
+        "text": "upport.gog.com"
+      },
+      {
+        "address": "0x476c32",
+        "references": [],
+        "section": ".rdata",
+        "text": "upport.gog.com"
+      },
+      {
+        "address": "0x476cba",
+        "references": [],
+        "section": ".rdata",
+        "text": "upport.gog.com"
+      },
+      {
+        "address": "0x476d4a",
+        "references": [],
+        "section": ".rdata",
+        "text": " support.gog.com"
+      },
+      {
+        "address": "0x476dd0",
+        "references": [
+          {
+            "from": "0x414e30",
+            "function": "sub_414d7f"
+          }
+        ],
+        "section": ".rdata",
+        "text": "El instalador web de GOG Galaxy no ha podido iniciarse. Visita support.gog.com para recibir ayuda. C"
+      },
+      {
+        "address": "0x476ec0",
+        "references": [
+          {
+            "from": "0x414ed3",
+            "function": "sub_414d7f"
+          }
+        ],
+        "section": ".rdata",
+        "text": "El instalador web de GOG Galaxy no pudo iniciarse. Visita support.gog.com para recibir ayuda. C"
+      },
+      {
+        "address": "0x476fd8",
+        "references": [
+          {
+            "from": "0x414e02",
+            "function": "sub_414d7f"
+          }
+        ],
+        "section": ".rdata",
+        "text": "Impossibile inizializzare GOG Galaxy Web Installer. Contatta support.gog.com per ricevere assistenza. Codice errore: {}."
+      },
+      {
+        "address": "0x4770f8",
+        "references": [
+          {
+            "from": "0x414ee7",
+            "function": "sub_414d7f"
+          }
+        ],
+        "section": ".rdata",
+        "text": "O instalador do GOG Galaxy falhou ao iniciar. Entre em contato com support.gog.com para obter aux"
+      },
+      {
+        "address": "0x4772be",
+        "references": [],
+        "section": ".rdata",
+        "text": " support.gog.com. "
+      },
+      {
+        "address": "0x4773b6",
+        "references": [],
+        "section": ".rdata",
+        "text": "ltst du unter support.gog.com/hc/de. Fehlercode: {}. "
+      },
+      {
+        "address": "0x47746e",
+        "references": [],
+        "section": ".rdata",
+        "text": "marrage du programme d'installation de GOG Galaxy. Contactez le support.gog.com pour obtenir une assistance. Code de l'erreur : {}. "
+      },
+      {
+        "address": "0x477620",
+        "references": [],
+        "section": ".rdata",
+        "text": " z support.gog.com, aby uzyska"
+      },
+      {
+        "address": "0x4776b8",
+        "references": [
+          {
+            "from": "0x414eab",
+            "function": "sub_414d7f"
+          }
+        ],
+        "section": ".rdata",
+        "text": "GOG Galaxy Web Installer failed to initialize. Contact support.gog.com for assistance. Error code: {}."
+      },
+      {
+        "address": "0x4783b2",
+        "references": [],
+        "section": ".rdata",
+        "text": "upport.gog.com"
+      },
+      {
+        "address": "0x478412",
+        "references": [],
+        "section": ".rdata",
+        "text": "upport.gog.com"
+      },
+      {
+        "address": "0x47849a",
+        "references": [],
+        "section": ".rdata",
+        "text": "upport.gog.com"
+      },
+      {
+        "address": "0x478520",
+        "references": [],
+        "section": ".rdata",
+        "text": " support.gog.com"
+      },
+      {
+        "address": "0x478590",
+        "references": [
+          {
+            "from": "0x414fc3",
+            "function": "sub_414f62"
+          }
+        ],
+        "section": ".rdata",
+        "text": "Se ha producido un error al instalar GOG Galaxy. Vuelve a intentarlo o visita support.gog.com."
+      },
+      {
+        "address": "0x478650",
+        "references": [
+          {
+            "from": "0x41502d",
+            "function": "sub_414f62"
+          }
+        ],
+        "section": ".rdata",
+        "text": "Se produjo un error al instalar GOG Galaxy. Vuelve a intentarlo o visita support.gog.com."
+      },
+      {
+        "address": "0x478740",
+        "references": [],
+        "section": ".rdata",
+        "text": " verificato un errore durante l'installazione di GOG Galaxy. Riprova, o contatta support.gog.com."
+      },
+      {
+        "address": "0x478830",
+        "references": [
+          {
+            "from": "0x415039",
+            "function": "sub_414f62"
+          }
+        ],
+        "section": ".rdata",
+        "text": "Algo deu errado ao instalar o GOG Galaxy. Por favor, tente novamente ou entre em contato com support.gog.com"
+      },
+      {
+        "address": "0x4789d2",
+        "references": [],
+        "section": ".rdata",
+        "text": " support.gog.com."
+      },
+      {
+        "address": "0x478a30",
+        "references": [
+          {
+            "from": "0x414fd2",
+            "function": "sub_414f62"
+          }
+        ],
+        "section": ".rdata",
+        "text": "Bei der Installation von GOG Galaxy ist ein Fehler aufgetreten. Bitte versuche es erneut oder kontaktiere support.gog.com/hc/de"
+      }
+    ],
+    "total": 159
+  },
+  "summary": "159 strings match \"(https?://|gog\\.com|gameId|game_id|productId|1[0-9]{9})\".",
+  "confidence": "observed",
+  "authority": "original-files",
+  "environment": {
+    "clean_room": false,
+    "engine": "builtin",
+    "engine_version": "0.6.1",
+    "host": "linux-x86_64"
+  },
+  "limitations": [
+    {
+      "code": "data_sections_only",
+      "message": "only strings stored in the file are searched (absence is not proof)"
+    }
+  ],
+  "coverage": {
+    "status": "partial",
+    "examined": 40,
+    "total": 159,
+    "next_offset": 40
+  },
+  "locations": [],
+  "links": []
+}

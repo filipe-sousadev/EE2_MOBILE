@@ -1,0 +1,76 @@
+{
+  "id": "ev_a271623dc8fdb489ccfdddebf0db48d32776576f581cbb71d6415fd4891e1e6f",
+  "subject": {
+    "kind": "pe",
+    "sha256": "8de8228d3366bb61c629382b48704e93bd14b00d57eabf2bfed6b943f323962d",
+    "name": "GOG_Galaxy_Empire_Earth_2_Gold_Edition.exe"
+  },
+  "operation": "native_function_pseudocode",
+  "params": {
+    "function": "entry"
+  },
+  "result": {
+    "calls": [
+      "*(uint32_t*)(esi + 0x120188",
+      "*(uint32_t*)(esi + 0x12018c",
+      "*(uint32_t*)(esi + 0x120190",
+      "ebp",
+      "sub_435126"
+    ],
+    "engine": "clean-room lifter",
+    "entry": "0x501620",
+    "function": "entry",
+    "gotos": 20,
+    "inline_asm": 9,
+    "pseudo_code": "int32_t entry()\n{\n    __asm(\"pushad\");\n    esi = 0x4a6000;\n    edi = esi + 0xfff5b000;\n    while (true) {\nlabel_50163a:\n        ebx = *(uint32_t*)(esi);\n        esi -= -4;\n        ebx += ebx;\n    }\nlabel_50170a:\n    esi = pop();\n    edi = esi;\n    ecx = 0x3b6d;\n    while (true) {\nlabel_501712:\n        al = *(uint8_t*)(edi);\n        edi++;\n        al -= 0xe8;\n    }\nlabel_50173e:\n    edi = esi + 0xfb000;\n    while (true) {\nlabel_501744:\n        eax = *(uint32_t*)(edi);\n        eax |= eax;\n        if (eax == 0) {\n            break;\n        } else {\n            ebx = *(uint32_t*)(edi + 4);\n            eax = eax + esi + 0x1200f4;\n            ebx += esi;\n            edi += 8;\n            eax = (**(uint32_t*)(esi + 0x120188))(eax);\n            __asm(\"xchg ebp, eax\");\n            while (true) {\n                al = *(uint8_t*)(edi);\n                edi++;\n                al |= al;\n                if (al == 0) {\n                    goto label_501744;\n                } else {\n                    ecx = edi;\n                    eax--;\n                    __asm(\"repne scasb [edi]\");\n                    eax = (**(uint32_t*)(esi + 0x120190))(ebp, edi);\n                    eax |= eax;\n                    if (eax == 0) {\n                        goto label_501780;\n                    } else {\n                        *(uint32_t*)(ebx) = eax;\n                        ebx += 4;\n                        continue;\n                    }\n                    break;\n                }\n                break;\n            }\n        }\n        break;\n    }\nlabel_501786:\n    edi += 4;\n    ebx = esi + 0xfffffffc;\n    while (true) {\n        eax = 0;\n        al = *(uint8_t*)(edi);\n        edi++;\n        eax |= eax;\n        if (eax == 0) {\n            break;\n        } else {\n            if (al > 0xef /* unsigned */) {\n                al &= 15;\n                eax <<= 16;\n                ax = *(uint16_t*)(edi);\n                edi += 2;\n            }\n            ebx += eax;\n            eax = *(uint32_t*)(ebx);\n            __asm(\"xchg ah, al\");\n            __asm(\"rol eax, 0x10\");\n            __asm(\"xchg ah, al\");\n            eax += esi;\n            *(uint32_t*)(ebx) = eax;\n            continue;\n        }\n        break;\n    }\n    edi = esi + 0xfffff000;\n    ebx = 0x1000;\n    (*ebp)(edi, ebx, 4, esp, eax);\n    eax = edi + 0x227;\n    *(uint8_t*)(eax) &= 0x7f;\n    *(uint8_t*)(eax + 0x28) &= 0x7f;\n    eax = pop();\n    (*ebp)(edi, ebx, eax, esp, eax);\n    eax = pop();\n    __asm(\"popad\");\n    eax = &stack_ffffff80;\n    while (true) {\n        if (esp == eax) break;\n    }\n    return sub_435126(); /* tail call */\nlabel_501630:\n    al = *(uint8_t*)(esi);\n    esi++;\n    *(uint8_t*)(edi) = al;\n    edi++;\nlabel_501636:\n    ebx += ebx;\n    if (ebx == 0) {\n        goto label_50163a;\n    }\n    while (true) {\n        if (/* Below */ flags) {\n            goto label_501630;\n        }\n    }\n    goto label_50163a;\n    eax = 1;\n    while (true) {\nlabel_501648:\n        ebx += ebx;\n        if (ebx == 0) {\n            ebx = *(uint32_t*)(esi);\n            esi -= -4;\n            ebx += ebx;\n        }\n    }\nlabel_501683:\n    ecx = 0;\n    eax -= 3;\n    if (eax < 0 /* unsigned */) {\n        ebx += ebx;\n        if (ebx == 0) {\n            ebx = *(uint32_t*)(esi);\n            esi -= -4;\n            ebx += ebx;\n        }\nlabel_5016a6:\n        if (/* Below */ flags) {\nlabel_501674:\n            ebx += ebx;\n            if (ebx == 0) {\n                ebx = *(uint32_t*)(esi);\n                esi -= -4;\n                ebx += ebx;\n            }\n            ecx += ecx;\n        } else {\n            ecx++;\n            ebx += ebx;\n            if (ebx == 0) {\n                ebx = *(uint32_t*)(esi);\n                esi -= -4;\n                ebx += ebx;\n            }\n            if (/* Below */ flags) {\n                goto label_501674;\n            } else {\n                while (true) {\nlabel_5016b6:\n                    ebx += ebx;\n                    if (ebx == 0) {\n                        ebx = *(uint32_t*)(esi);\n                        esi -= -4;\n                        ebx += ebx;\n                    }\n                }\nlabel_5016d2:\n                ecx += 2;\n            }\n        }\n        ecx += 2;\n        edx = edi + ebp;\n        if (ebp <= -4 /* unsigned */) {\n            while (true) {\n                eax = *(uint32_t*)(edx);\n                edx += 4;\n                *(uint32_t*)(edi) = eax;\n                edi += 4;\n                ecx -= 4;\n                if (ecx <= 0 /* unsigned */) break;\n            }\n            edi += ecx;\n        } else {\n            while (true) {\n                al = *(uint8_t*)(edx);\n                edx++;\n                *(uint8_t*)(edi) = al;\n                edi++;\n                ecx--;\n                if (ecx == 0) break;\n            }\n        }\n        goto label_501636;\n    }\n    eax <<= 8;\n    al = *(uint8_t*)(esi);\n    esi++;\n    eax ^= -1;\n    if (eax != 0) {\n        eax >>= 1;\n        goto label_5016a6;\n    }\n    goto label_50170a;\n    eax += eax;\n    ebx += ebx;\n    if (ebx >= 0 /* unsigned */) {\nlabel_501664:\n        eax--;\n        ebx += ebx;\n        if (ebx == 0) {\n            ebx = *(uint32_t*)(esi);\n            esi -= -4;\n            ebx += ebx;\n        }\n        eax += eax;\n        goto label_501648;\n    }\n    if (!(/* Ne */ flags)) {\n        ebx = *(uint32_t*)(esi);\n        esi -= -4;\n        ebx += ebx;\n        if (ebx >= 0 /* unsigned */) {\n            goto label_501664;\n        }\n    }\n    goto label_501683;\n    ecx += ecx;\n    ebx += ebx;\n    if (ebx >= 0 /* unsigned */) {\n        goto label_5016b6;\n    }\n    if (!(/* Ne */ flags)) {\n        ebx = *(uint32_t*)(esi);\n        esi -= -4;\n        ebx += ebx;\n        if (ebx >= 0 /* unsigned */) {\n            goto label_5016b6;\n        }\n    }\n    goto label_5016d2;\n    while (true) {\nlabel_501717:\n        if (al > 1 /* unsigned */) break;\n    }\n    goto label_501712;\n    if (*(uint8_t*)(edi) != 0x17) {\n        goto label_501712;\n    }\n    eax = *(uint32_t*)(edi);\n    bl = *(uint8_t*)(edi + 4);\n    ax >>= 8;\n    __asm(\"rol eax, 0x10\");\n    __asm(\"xchg ah, al\");\n    eax -= edi;\n    bl -= 0xe8;\n    eax += esi;\n    *(uint32_t*)(edi) = eax;\n    edi += 5;\n    al = bl;\n    if (/* condition */ flags) {\n        goto label_501717;\n    }\n    goto label_50173e;\nlabel_501780:\n    (**(uint32_t*)(esi + 0x12018c))();\n    goto label_501786;\n}\n",
+    "signature": "int32_t entry()",
+    "strings": [],
+    "structured": false
+  },
+  "summary": "Pseudo-C for entry (272 lines, partly unstructured).",
+  "confidence": "inferred",
+  "authority": "original-files",
+  "environment": {
+    "clean_room": false,
+    "engine": "builtin",
+    "engine_version": "0.6.1",
+    "host": "linux-x86_64"
+  },
+  "limitations": [
+    {
+      "code": "register_level",
+      "message": "variables are machine registers and stack slots; types are not recovered"
+    },
+    {
+      "code": "calling_convention_assumed",
+      "message": "call arguments follow the usual x86 convention and may be wrong for unusual functions"
+    },
+    {
+      "code": "conditions_from_flags",
+      "message": "branch conditions are rebuilt from the last compare and may be approximate"
+    },
+    {
+      "code": "unstructured_flow",
+      "message": "20 gotos remain where the control flow isn't a simple if/loop"
+    },
+    {
+      "code": "inline_asm",
+      "message": "9 instructions have no C rule and are shown as __asm(...)"
+    },
+    {
+      "code": "deep_engine_unavailable",
+      "message": "Ghidra's analysis has no function at this address and it couldn't make one: Ghidra could not disassemble code at this address. So this came from the built-in decompiler, which is less exact."
+    }
+  ],
+  "coverage": {
+    "status": "unknown"
+  },
+  "locations": [
+    {
+      "kind": "address",
+      "value": "0x501620"
+    }
+  ],
+  "links": [],
+  "carries_target_content": true
+}

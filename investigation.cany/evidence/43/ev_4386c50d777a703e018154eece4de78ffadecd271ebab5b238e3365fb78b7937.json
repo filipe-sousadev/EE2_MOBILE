@@ -1,0 +1,74 @@
+{
+  "id": "ev_4386c50d777a703e018154eece4de78ffadecd271ebab5b238e3365fb78b7937",
+  "subject": {
+    "kind": "pe",
+    "sha256": "8de8228d3366bb61c629382b48704e93bd14b00d57eabf2bfed6b943f323962d",
+    "name": "GOG_Galaxy_Empire_Earth_2_Gold_Edition.exe"
+  },
+  "operation": "native_sections_list",
+  "params": {},
+  "result": {
+    "sections": [
+      {
+        "end": "0x4a6000",
+        "entropy": null,
+        "exec": true,
+        "file_offset": null,
+        "file_size": 0,
+        "kind": "code",
+        "name": "UPX0",
+        "read": true,
+        "segment": null,
+        "size": 675840,
+        "start": "0x401000",
+        "write": true
+      },
+      {
+        "end": "0x502000",
+        "entropy": 7.9206109046936035,
+        "exec": true,
+        "file_offset": 1024,
+        "file_size": 375296,
+        "kind": "code",
+        "name": "UPX1",
+        "read": true,
+        "segment": null,
+        "size": 376832,
+        "start": "0x4a6000",
+        "write": true
+      },
+      {
+        "end": "0x522000",
+        "entropy": 7.91996955871582,
+        "exec": false,
+        "file_offset": 376320,
+        "file_size": 128000,
+        "kind": "data",
+        "name": ".rsrc",
+        "read": true,
+        "segment": null,
+        "size": 131072,
+        "start": "0x502000",
+        "write": true
+      }
+    ],
+    "segments": []
+  },
+  "summary": "0 segments and 3 sections.",
+  "confidence": "observed",
+  "authority": "original-files",
+  "environment": {
+    "clean_room": false,
+    "engine": "builtin",
+    "engine_version": "0.6.1",
+    "host": "linux-x86_64"
+  },
+  "limitations": [],
+  "coverage": {
+    "status": "complete",
+    "examined": 3,
+    "total": 3
+  },
+  "locations": [],
+  "links": []
+}

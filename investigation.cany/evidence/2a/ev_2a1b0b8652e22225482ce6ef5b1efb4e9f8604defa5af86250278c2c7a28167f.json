@@ -1,0 +1,606 @@
+{
+  "id": "ev_2a1b0b8652e22225482ce6ef5b1efb4e9f8604defa5af86250278c2c7a28167f",
+  "subject": {
+    "kind": "pe",
+    "sha256": "c9eb405f66a08d9216b1a34b22e13e425119665f3e5159fbc7f6fe722a4a4a5d",
+    "name": "installer_unpacked.exe"
+  },
+  "operation": "native_strings_find",
+  "params": {
+    "case_sensitive": false,
+    "limit": 80,
+    "mode": "regex",
+    "offset": 0,
+    "pattern": "(damage|health|hit ?points|epoch|villager|citizen|attack|armor|armour|speed|resource|food|wood|stone|gold|unit|db\\.zip|\\.ddf|\\.csv)"
+  },
+  "result": {
+    "matches": [
+      {
+        "address": "0x479270",
+        "references": [
+          {
+            "from": "0x416359",
+            "function": "sub_416105"
+          }
+        ],
+        "section": ".rdata",
+        "text": "\\GalaxyWebInstaller.resources.dll"
+      },
+      {
+        "address": "0x47a524",
+        "references": [
+          {
+            "from": "0x41f2db",
+            "function": "sub_41efe5"
+          }
+        ],
+        "section": ".rdata",
+        "text": "Empire Earth 2 Gold Edition"
+      },
+      {
+        "address": "0x47b66c",
+        "references": [
+          {
+            "from": "0x41fe03",
+            "function": "sub_41fdef"
+          }
+        ],
+        "section": ".rdata",
+        "text": "Extracting icon resources."
+      },
+      {
+        "address": "0x47b840",
+        "references": [
+          {
+            "from": "0x420089",
+            "function": "sub_420064"
+          }
+        ],
+        "section": ".rdata",
+        "text": "Failed to find resource. Resource id: {}."
+      },
+      {
+        "address": "0x47b898",
+        "references": [
+          {
+            "from": "0x4200ae",
+            "function": "sub_420064"
+          }
+        ],
+        "section": ".rdata",
+        "text": "Failed to load resource. Resource id: {}."
+      },
+      {
+        "address": "0x47bb1c",
+        "references": [
+          {
+            "from": "0x47c194",
+            "function": null
+          }
+        ],
+        "section": ".rdata",
+        "text": "no stream resources"
+      },
+      {
+        "address": "0x47bcc0",
+        "references": [
+          {
+            "from": "0x47c23c",
+            "function": null
+          },
+          {
+            "from": "0x47c5f4",
+            "function": null
+          }
+        ],
+        "section": ".rdata",
+        "text": "resource deadlock would occur"
+      },
+      {
+        "address": "0x47bce0",
+        "references": [
+          {
+            "from": "0x47c244",
+            "function": null
+          },
+          {
+            "from": "0x47c5f8",
+            "function": null
+          }
+        ],
+        "section": ".rdata",
+        "text": "resource unavailable try again"
+      },
+      {
+        "address": "0x47c3f4",
+        "references": [
+          {
+            "from": "0x47c0b4",
+            "function": null
+          },
+          {
+            "from": "0x47c5e0",
+            "function": null
+          }
+        ],
+        "section": ".rdata",
+        "text": "device or resource busy"
+      },
+      {
+        "address": "0x47fa58",
+        "references": [],
+        "section": ".rdata",
+        "text": "pExecutionResource"
+      },
+      {
+        "address": "0x4827f4",
+        "references": [
+          {
+            "from": "0x482684",
+            "function": null
+          }
+        ],
+        "section": ".rdata",
+        "text": "Resource temporarily unavailable"
+      },
+      {
+        "address": "0x48284c",
+        "references": [
+          {
+            "from": "0x482698",
+            "function": null
+          }
+        ],
+        "section": ".rdata",
+        "text": "Resource device"
+      },
+      {
+        "address": "0x4829a4",
+        "references": [
+          {
+            "from": "0x4826e8",
+            "function": null
+          }
+        ],
+        "section": ".rdata",
+        "text": "Resource deadlock avoided"
+      },
+      {
+        "address": "0x483db0",
+        "references": [
+          {
+            "from": "0x4841f0",
+            "function": null
+          }
+        ],
+        "section": ".rdata",
+        "text": "united-kingdom"
+      },
+      {
+        "address": "0x483dd0",
+        "references": [
+          {
+            "from": "0x4841fc",
+            "function": null
+          }
+        ],
+        "section": ".rdata",
+        "text": "united-states"
+      },
+      {
+        "address": "0x4953d8",
+        "references": [],
+        "section": ".rdata",
+        "text": "LockResource"
+      },
+      {
+        "address": "0x4953e8",
+        "references": [],
+        "section": ".rdata",
+        "text": "LoadResource"
+      },
+      {
+        "address": "0x4953f8",
+        "references": [],
+        "section": ".rdata",
+        "text": "SizeofResource"
+      },
+      {
+        "address": "0x49540a",
+        "references": [],
+        "section": ".rdata",
+        "text": "FindResourceW"
+      },
+      {
+        "address": "0x49a074",
+        "references": [],
+        "section": ".data",
+        "text": ".?AVscheduler_resource_allocation_error@Concurrency@@"
+      },
+      {
+        "address": "0x49a37c",
+        "references": [],
+        "section": ".data",
+        "text": ".?AVResourceManager@details@Concurrency@@"
+      },
+      {
+        "address": "0x49a3b0",
+        "references": [],
+        "section": ".data",
+        "text": ".?AUIResourceManager@Concurrency@@"
+      },
+      {
+        "address": "0x49a3dc",
+        "references": [],
+        "section": ".data",
+        "text": ".?AUITopologyExecutionResource@Concurrency@@"
+      },
+      {
+        "address": "0x49a898",
+        "references": [],
+        "section": ".data",
+        "text": ".?AVExecutionResource@details@Concurrency@@"
+      },
+      {
+        "address": "0x49a8cc",
+        "references": [],
+        "section": ".data",
+        "text": ".?AUIExecutionResource@Concurrency@@"
+      },
+      {
+        "address": "0x4c3a5a",
+        "references": [],
+        "section": ".rsrc",
+        "text": "get_speedBs_GWENT_CN"
+      },
+      {
+        "address": "0x4c3a6f",
+        "references": [],
+        "section": ".rsrc",
+        "text": "get_speedKbs_GWENT_CN"
+      },
+      {
+        "address": "0x4c3a85",
+        "references": [],
+        "section": ".rsrc",
+        "text": "get_speedMbs_GWENT_CN"
+      },
+      {
+        "address": "0x4c3cfa",
+        "references": [],
+        "section": ".rsrc",
+        "text": "GetSpeed"
+      },
+      {
+        "address": "0x4c4278",
+        "references": [],
+        "section": ".rsrc",
+        "text": "resourceName"
+      },
+      {
+        "address": "0x4c43bb",
+        "references": [],
+        "section": ".rsrc",
+        "text": "resourceCulture"
+      },
+      {
+        "address": "0x4c4547",
+        "references": [],
+        "section": ".rsrc",
+        "text": "NeutralResourcesLanguageAttribute"
+      },
+      {
+        "address": "0x4c4813",
+        "references": [],
+        "section": ".rsrc",
+        "text": "GetSpeedString"
+      },
+      {
+        "address": "0x4c4c52",
+        "references": [],
+        "section": ".rsrc",
+        "text": "resourceMan"
+      },
+      {
+        "address": "0x4c4f86",
+        "references": [],
+        "section": ".rsrc",
+        "text": "get_ResourceManager"
+      },
+      {
+        "address": "0x4c4f9a",
+        "references": [],
+        "section": ".rsrc",
+        "text": "ComponentResourceManager"
+      },
+      {
+        "address": "0x4c51b2",
+        "references": [],
+        "section": ".rsrc",
+        "text": "get_speedBs"
+      },
+      {
+        "address": "0x4c51be",
+        "references": [],
+        "section": ".rsrc",
+        "text": "get_speedKbs"
+      },
+      {
+        "address": "0x4c51cb",
+        "references": [],
+        "section": ".rsrc",
+        "text": "get_speedMbs"
+      },
+      {
+        "address": "0x4c5276",
+        "references": [],
+        "section": ".rsrc",
+        "text": "System.Resources"
+      },
+      {
+        "address": "0x4c5287",
+        "references": [],
+        "section": ".rsrc",
+        "text": "ApplyResources"
+      },
+      {
+        "address": "0x4c5296",
+        "references": [],
+        "section": ".rsrc",
+        "text": "GalaxyWebInstaller.Properties.Resources.resources"
+      },
+      {
+        "address": "0x4c52c8",
+        "references": [],
+        "section": ".rsrc",
+        "text": "GalaxyWebInstaller.Localization.Strings.resources"
+      },
+      {
+        "address": "0x4c52fa",
+        "references": [],
+        "section": ".rsrc",
+        "text": "GalaxyWebInstaller.Window.resources"
+      },
+      {
+        "address": "0x4c5666",
+        "references": [],
+        "section": ".rsrc",
+        "text": "_downloadSpeedSnapshots"
+      },
+      {
+        "address": "0x4c5abe",
+        "references": [],
+        "section": ".rsrc",
+        "text": "speedMbs"
+      },
+      {
+        "address": "0x4c5ad0",
+        "references": [],
+        "section": ".rsrc",
+        "text": "speedKbs"
+      },
+      {
+        "address": "0x4c5ae2",
+        "references": [],
+        "section": ".rsrc",
+        "text": "speedBs"
+      },
+      {
+        "address": "0x4c7915",
+        "references": [],
+        "section": ".rsrc",
+        "text": "alaxyWebInstaller.Properties.Resources"
+      },
+      {
+        "address": "0x4c8579",
+        "references": [],
+        "section": ".rsrc",
+        "text": "3System.Resources.Tools.StronglyTypedResourceBuilder"
+      },
+      {
+        "address": "0x4c862c",
+        "references": [],
+        "section": ".rsrc",
+        "text": "lSystem.Resources.ResourceReader, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089#System.Resources.RuntimeResourceSet"
+      },
+      {
+        "address": "0x4c8e31",
+        "references": [],
+        "section": ".rsrc",
+        "text": "speedBs"
+      },
+      {
+        "address": "0x4c8e69",
+        "references": [],
+        "section": ".rsrc",
+        "text": "speedKbs"
+      },
+      {
+        "address": "0x4c8ea5",
+        "references": [],
+        "section": ".rsrc",
+        "text": "speedMbs"
+      },
+      {
+        "address": "0x4c96ac",
+        "references": [],
+        "section": ".rsrc",
+        "text": "lSystem.Resources.ResourceReader, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089#System.Resources.RuntimeResourceSet"
+      },
+      {
+        "address": "0x4cf8f4",
+        "references": [],
+        "section": ".rsrc",
+        "text": "lSystem.Resources.ResourceReader, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089#System.Resources.RuntimeResourceSet"
+      },
+      {
+        "address": "0x4e3cd0",
+        "references": [],
+        "section": ".rsrc",
+        "text": "lSystem.Resources.ResourceReader, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089#System.Resources.RuntimeResourceSet"
+      },
+      {
+        "address": "0x4e3fd9",
+        "references": [],
+        "section": ".rsrc",
+        "text": "speedBs"
+      },
+      {
+        "address": "0x4e3fec",
+        "references": [],
+        "section": ".rsrc",
+        "text": "speedKbs"
+      },
+      {
+        "address": "0x4e4001",
+        "references": [],
+        "section": ".rsrc",
+        "text": "speedMbs"
+      },
+      {
+        "address": "0x4e47b7",
+        "references": [],
+        "section": ".rsrc",
+        "text": "GalaxyWebInstaller.resources.dll"
+      },
+      {
+        "address": "0x4e47d8",
+        "references": [],
+        "section": ".rsrc",
+        "text": "GalaxyWebInstaller.resources"
+      },
+      {
+        "address": "0x4e47f8",
+        "references": [],
+        "section": ".rsrc",
+        "text": "GalaxyWebInstaller.Localization.Strings.ru.resources"
+      },
+      {
+        "address": "0x4e4cac",
+        "references": [],
+        "section": ".rsrc",
+        "text": "GalaxyWebInstaller.resources.dll"
+      },
+      {
+        "address": "0x4e4db0",
+        "references": [],
+        "section": ".rsrc",
+        "text": "GalaxyWebInstaller.resources.dll"
+      },
+      {
+        "address": "0x4e54d0",
+        "references": [],
+        "section": ".rsrc",
+        "text": "lSystem.Resources.ResourceReader, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089#System.Resources.RuntimeResourceSet"
+      },
+      {
+        "address": "0x4e57d9",
+        "references": [],
+        "section": ".rsrc",
+        "text": "speedBs"
+      },
+      {
+        "address": "0x4e57ec",
+        "references": [],
+        "section": ".rsrc",
+        "text": "speedKbs"
+      },
+      {
+        "address": "0x4e5801",
+        "references": [],
+        "section": ".rsrc",
+        "text": "speedMbs"
+      },
+      {
+        "address": "0x4e5daf",
+        "references": [],
+        "section": ".rsrc",
+        "text": "GalaxyWebInstaller.resources.dll"
+      },
+      {
+        "address": "0x4e5dd0",
+        "references": [],
+        "section": ".rsrc",
+        "text": "GalaxyWebInstaller.resources"
+      },
+      {
+        "address": "0x4e5df0",
+        "references": [],
+        "section": ".rsrc",
+        "text": "GalaxyWebInstaller.Localization.Strings.pl.resources"
+      },
+      {
+        "address": "0x4e62ac",
+        "references": [],
+        "section": ".rsrc",
+        "text": "GalaxyWebInstaller.resources.dll"
+      },
+      {
+        "address": "0x4e63b0",
+        "references": [],
+        "section": ".rsrc",
+        "text": "GalaxyWebInstaller.resources.dll"
+      },
+      {
+        "address": "0x4e6ad0",
+        "references": [],
+        "section": ".rsrc",
+        "text": "lSystem.Resources.ResourceReader, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089#System.Resources.RuntimeResourceSet"
+      },
+      {
+        "address": "0x4e6dd9",
+        "references": [],
+        "section": ".rsrc",
+        "text": "speedBs"
+      },
+      {
+        "address": "0x4e6dec",
+        "references": [],
+        "section": ".rsrc",
+        "text": "speedKbs"
+      },
+      {
+        "address": "0x4e6e01",
+        "references": [],
+        "section": ".rsrc",
+        "text": "speedMbs"
+      },
+      {
+        "address": "0x4e73f7",
+        "references": [],
+        "section": ".rsrc",
+        "text": "GalaxyWebInstaller.resources.dll"
+      },
+      {
+        "address": "0x4e7418",
+        "references": [],
+        "section": ".rsrc",
+        "text": "GalaxyWebInstaller.resources"
+      }
+    ],
+    "total": 166
+  },
+  "summary": "166 strings match \"(damage|health|hit ?points|epoch|villager|citizen|attack|armor|armour|speed|resource|food|wood|stone|gold|unit|db\\.zip|\\.ddf|\\.csv)\".",
+  "confidence": "observed",
+  "authority": "original-files",
+  "environment": {
+    "clean_room": false,
+    "engine": "builtin",
+    "engine_version": "0.6.1",
+    "host": "linux-x86_64"
+  },
+  "limitations": [
+    {
+      "code": "data_sections_only",
+      "message": "only strings stored in the file are searched (absence is not proof)"
+    }
+  ],
+  "coverage": {
+    "status": "partial",
+    "examined": 80,
+    "total": 166,
+    "next_offset": 80
+  },
+  "locations": [],
+  "links": []
+}

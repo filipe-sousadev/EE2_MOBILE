@@ -1,0 +1,45 @@
+{
+  "revision": 5,
+  "brief": {
+    "question": "Build a playable Android (Galaxy A56, landscape touch) real-time strategy game in the style of an epoch-based RTS, as the person asked for 'Empire Earth II on mobile'.",
+    "purpose": "Original game in the same genre; the target folder only contains a GOG downloader stub and a Lutris script, so no game files or code are available.",
+    "targets": [
+      "/home/ar1m4/Downloads/EE2/"
+    ],
+    "constraints": [
+      "No copying of the original game's name, art or content",
+      "Godot 4.4.1 GDScript in app/",
+      "Touch controls, landscape 2340x1080"
+    ],
+    "done_when": "Game builds, --screenshot and --self-test pass, Android export preset present."
+  },
+  "plan": [],
+  "hypotheses": [],
+  "findings": [
+    {
+      "id": "fnd_1",
+      "statement": "The target folder holds no game: only a 520 KB UPX-packed GOG Galaxy downloader stub and a Lutris install script naming EE2.exe and zips/db.zip, which are absent. No unit stats, code or art can be read, so every gameplay number in the rebuild is an estimate.",
+      "evidence_ids": [
+        "ev_11f4396b1c11b08ed02a408600b05be375a36670907c63f4df46669d238bcad7",
+        "ev_099c9e7da60e7f1cf6c1a6aae7bff675cdb7789a7e29fc622766ac0cd5e5cba3"
+      ],
+      "confidence": "observed"
+    },
+    {
+      "id": "fnd_2",
+      "statement": "Decompiled the only program in the folder (UPX-unpacked copy, sha256 c9eb405f…): it is GOG's Galaxy web-installer bootstrapper. Its main routine FUN_0041efe5 logs to InstallerBootstrapper.log, sets product id 1207658844 and the title, checks the Galaxy registry (sub_4084f0/sub_408251), extracts the embedded .NET GalaxyWebInstaller (sub_416105/sub_41fdef) and launches it with CreateProcessW. The only 'speed' values are download speeds (speedBs/Kbs/Mbs); a search for damage, health, attack, epoch, villager, food, wood, stone, gold and unit found no gameplay data. No game rule or number can come from this program.",
+      "evidence_ids": [
+        "ev_a271623dc8fdb489ccfdddebf0db48d32776576f581cbb71d6415fd4891e1e6f",
+        "ev_5beb8115cb1a3574613a4c934a04a0a24d3f948cbe266bbab4b24b188ec095c2",
+        "ev_8aee1fad9567b11ac2ad709bb4e16bf6b188404da5870efebc164045cc5ecb85",
+        "ev_2a1b0b8652e22225482ce6ef5b1efb4e9f8604defa5af86250278c2c7a28167f",
+        "ev_490d5856dab89932832b244556de399bc2f9ea1d924f2dc26727f8f949f9dd07",
+        "ev_cf747c8151ce715e11ee9b54fe428eaf69ef37f539e138ca05a277ebe5da9e41",
+        "ev_f6bf8105a2d09218236db63e2c44412fc9e76d0cf476f37d121bdba8355899cb"
+      ],
+      "confidence": "observed"
+    }
+  ],
+  "handoff": "Deep-mode decompile done: the target's only program is the UPX-packed GOG Galaxy web installer (unpacked copy in checks/unpacked/; main FUN_0041efe5 @0x41efe5 sets product id 1207658844, checks registry, extracts and launches .NET GalaxyWebInstaller). No gameplay code/data (fnd_2); MECHANICS.md has a Decompilation section; mechanics.json values stay estimated with a looked_in note. All rebuild_check checks pass (mechanics unverified by design). Test modes now disable vsync and have a 150 s watchdog. APK re-exported via app/tools/export_android.sh. Godot chdirs to the project with --path, so relative --self-test/--screenshot paths use $PWD if it exists. Next: real values need the installed game folder (EE2.exe, zips/db.zip).",
+  "updated": "2026-11-17T03:30:45Z"
+}

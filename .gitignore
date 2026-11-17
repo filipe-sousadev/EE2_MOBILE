@@ -1,0 +1,15 @@
+# Godot 4
+.godot/
+.import/
+export.cfg
+# export_presets.cfg guarda usuario e senha do keystore de release em texto puro
+export_presets.cfg
+*.translation
+.mono/
+data_*/
+mono_crash.*.json
+
+# Build Android (template de build do Godot, SDK, APKs e keystores)
+app/.android-build/
+*.keystore
+*.jks

@@ -1,0 +1,36 @@
+{
+  "passed": true,
+  "steps": [
+    {
+      "detail": "villager selected by tap: true; walked 264 px (8.3 m at 32 px = 1 m) toward the tapped spot",
+      "passed": true,
+      "step": "move"
+    },
+    {
+      "detail": "gather order true queued true; 2 villagers gathered 20 wood; town center trained a villager by its button (pop 4 -> 5); spearman ordered by tap dealt 70 damage to an enemy archer (killed: true)",
+      "passed": true,
+      "step": "act"
+    },
+    {
+      "detail": "house placed with the build button and a tap, finished by a villager: population cap 10 -> 15",
+      "passed": true,
+      "step": "build"
+    },
+    {
+      "detail": "advance button pressed: Idade da Pedra -> Idade do Bronze; archers and towers unlocked: true",
+      "passed": true,
+      "step": "epoch"
+    },
+    {
+      "detail": "computer gathered 131 resources and has 9 population after 74 s",
+      "passed": true,
+      "step": "ai"
+    },
+    {
+      "detail": "resources true, population 'Pop 6/15', epoch 'Idade do Bronze', minimap true, selection panel '5 unidades' with 7 buttons",
+      "passed": true,
+      "step": "hud"
+    }
+  ],
+  "version": 1
+}

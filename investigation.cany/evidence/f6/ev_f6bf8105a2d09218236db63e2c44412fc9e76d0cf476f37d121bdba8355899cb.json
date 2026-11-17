@@ -1,0 +1,334 @@
+{
+  "id": "ev_f6bf8105a2d09218236db63e2c44412fc9e76d0cf476f37d121bdba8355899cb",
+  "subject": {
+    "kind": "pe",
+    "sha256": "8de8228d3366bb61c629382b48704e93bd14b00d57eabf2bfed6b943f323962d",
+    "name": "GOG_Galaxy_Empire_Earth_2_Gold_Edition.exe"
+  },
+  "operation": "native_pe_resources_list",
+  "params": {
+    "max_entries": 16384,
+    "path": null
+  },
+  "result": {
+    "entries": [
+      {
+        "codepage": 1252,
+        "file_offset": 97928,
+        "language": 1033,
+        "name": "109",
+        "rva": "0xbda88",
+        "sha256": "ee6f607a82936bb0d7f9cb8e4a57937388e2b01c7eb122ebd35aa312dedfb82e",
+        "size": 16,
+        "type": "RT_ACCELERATOR"
+      },
+      {
+        "codepage": 1252,
+        "file_offset": 97452,
+        "language": 1033,
+        "name": "IDD_ABOUTBOX",
+        "rva": "0xbd8ac",
+        "sha256": "40cb612833c9973406919b578157f8440e332e29c68a02571297465bd9fc9521",
+        "size": 360,
+        "type": "RT_DIALOG"
+      },
+      {
+        "codepage": 1252,
+        "file_offset": 501364,
+        "language": 1045,
+        "name": "132",
+        "rva": "0x120874",
+        "sha256": "ed0afd0b607291b6c23b5fac0cfe2caabd304af20b8332f51ace757e26304750",
+        "size": 62,
+        "type": "RT_GROUP_ICON"
+      },
+      {
+        "codepage": 1252,
+        "file_offset": 377784,
+        "language": 1045,
+        "name": "1",
+        "rva": "0x1025b8",
+        "sha256": "38db09fb9e57f79d0218683a9b3c2ecb85205189dcfd6a3c443b1a211f7bada5",
+        "size": 111614,
+        "type": "RT_ICON"
+      },
+      {
+        "codepage": 1252,
+        "file_offset": 489404,
+        "language": 1045,
+        "name": "2",
+        "rva": "0x11d9bc",
+        "sha256": "4756f97bcc76fbbf916708598892c0f30b70504f54120e3e7979bf77ad652529",
+        "size": 6553,
+        "type": "RT_ICON"
+      },
+      {
+        "codepage": 1252,
+        "file_offset": 495964,
+        "language": 1045,
+        "name": "3",
+        "rva": "0x11f35c",
+        "sha256": "33ff310f013e0c5168e1bdaa50dc6108339cf9f69251d6386cb386d8a5fba265",
+        "size": 4264,
+        "type": "RT_ICON"
+      },
+      {
+        "codepage": 1252,
+        "file_offset": 500232,
+        "language": 1045,
+        "name": "4",
+        "rva": "0x120408",
+        "sha256": "095e1f7174a79c5e616f7e051db74013efdc8fd34d1feb56cda58d7078414066",
+        "size": 1128,
+        "type": "RT_ICON"
+      },
+      {
+        "codepage": 1252,
+        "file_offset": 502280,
+        "language": 1033,
+        "name": "1",
+        "rva": "0x120c08",
+        "sha256": "5b4b0be9c33743ff03ffc800ab2419a25590b29a93627eb407af751aa9f35b7c",
+        "size": 1258,
+        "type": "RT_MANIFEST"
+      },
+      {
+        "codepage": 1252,
+        "file_offset": 97376,
+        "language": 1033,
+        "name": "109",
+        "rva": "0xbd860",
+        "sha256": "9b6224e3d0c8ebc1f57d513d9bfc9d5fd3a468bfe0534cdbbafd9948e0097188",
+        "size": 74,
+        "type": "RT_MENU"
+      },
+      {
+        "codepage": 1252,
+        "file_offset": 97944,
+        "language": 1045,
+        "name": "129",
+        "rva": "0xbda98",
+        "sha256": "7652475134faf0ee272bfce21350390268d147bbb704ddbaacf16b2db328a79e",
+        "size": 122952,
+        "type": "RT_RCDATA"
+      },
+      {
+        "codepage": 1252,
+        "file_offset": 220896,
+        "language": 1045,
+        "name": "133",
+        "rva": "0xdbae0",
+        "sha256": "c6c5535253a74bee071e6bc6affd29e02e8fb2947bc5a9af61160e2d6c58923a",
+        "size": 32654,
+        "type": "RT_RCDATA"
+      },
+      {
+        "codepage": 1252,
+        "file_offset": 253552,
+        "language": 1045,
+        "name": "134",
+        "rva": "0xe3a70",
+        "sha256": "15dedc970cc8716b3717e7fdd3442f490171d306d9ec49ed7bce8ad04a706e09",
+        "size": 6144,
+        "type": "RT_RCDATA"
+      },
+      {
+        "codepage": 1252,
+        "file_offset": 259696,
+        "language": 1045,
+        "name": "135",
+        "rva": "0xe5270",
+        "sha256": "96744a80f64929f806b366204422f5e8bdf9259ff3a2d34f7b62498c89450d10",
+        "size": 5632,
+        "type": "RT_RCDATA"
+      },
+      {
+        "codepage": 1252,
+        "file_offset": 265328,
+        "language": 1045,
+        "name": "136",
+        "rva": "0xe6870",
+        "sha256": "d75bfaf86d961b5376231057eeaa2c693155700748ec3ece7a552e88b448d098",
+        "size": 5632,
+        "type": "RT_RCDATA"
+      },
+      {
+        "codepage": 1252,
+        "file_offset": 270960,
+        "language": 1045,
+        "name": "137",
+        "rva": "0xe7e70",
+        "sha256": "a0b2baf19b86307af0db405cefb24fd17658c30693e26ff0ba21431bc2ba851c",
+        "size": 5632,
+        "type": "RT_RCDATA"
+      },
+      {
+        "codepage": 1252,
+        "file_offset": 276592,
+        "language": 1045,
+        "name": "138",
+        "rva": "0xe9470",
+        "sha256": "c6d4df6662bb4bfcd75300bb6103b9ec3f2db78a5358925c8897504cf197154f",
+        "size": 5632,
+        "type": "RT_RCDATA"
+      },
+      {
+        "codepage": 1252,
+        "file_offset": 282224,
+        "language": 1045,
+        "name": "139",
+        "rva": "0xeaa70",
+        "sha256": "a1c36d07a0773a7a4ec7664f2bc316a999279ea849816faf105d9d61ad051319",
+        "size": 5632,
+        "type": "RT_RCDATA"
+      },
+      {
+        "codepage": 1252,
+        "file_offset": 287856,
+        "language": 1045,
+        "name": "140",
+        "rva": "0xec070",
+        "sha256": "b368e95c029586bd144a6e9d949a9a55e03ce0cddf55ba9e4adb98ee0785065f",
+        "size": 5632,
+        "type": "RT_RCDATA"
+      },
+      {
+        "codepage": 1252,
+        "file_offset": 293488,
+        "language": 1045,
+        "name": "141",
+        "rva": "0xed670",
+        "sha256": "8ab7cf8672ff56beda4ad8ca3e0d77ec8bffc691c6a13b8c9386d5016717f156",
+        "size": 5632,
+        "type": "RT_RCDATA"
+      },
+      {
+        "codepage": 1252,
+        "file_offset": 299120,
+        "language": 1045,
+        "name": "142",
+        "rva": "0xeec70",
+        "sha256": "c53e9424d930c01c03962f560e2616e6b2c6e33854aee55da2b8e208d4b9a3a8",
+        "size": 5632,
+        "type": "RT_RCDATA"
+      },
+      {
+        "codepage": 1252,
+        "file_offset": 304752,
+        "language": 1045,
+        "name": "143",
+        "rva": "0xf0270",
+        "sha256": "a919978dc166d44212e014904d16f0d1f873d53e70f8fa817ea549925db14d2b",
+        "size": 5632,
+        "type": "RT_RCDATA"
+      },
+      {
+        "codepage": 1252,
+        "file_offset": 310384,
+        "language": 1045,
+        "name": "144",
+        "rva": "0xf1870",
+        "sha256": "81e179063cac6cd57b092656e3fa8b6ac1f9c72876f77044cdc7d419af6266c9",
+        "size": 5632,
+        "type": "RT_RCDATA"
+      },
+      {
+        "codepage": 1252,
+        "file_offset": 316016,
+        "language": 1045,
+        "name": "145",
+        "rva": "0xf2e70",
+        "sha256": "bce206904004c4cfa351a953be2f99727913372445e4a3781a60920569661fa6",
+        "size": 5632,
+        "type": "RT_RCDATA"
+      },
+      {
+        "codepage": 1252,
+        "file_offset": 97812,
+        "language": 1033,
+        "name": "7",
+        "rva": "0xbda14",
+        "sha256": "1d784ed4dfdaf6c81b92021963996940c2b82496bc8f0e8ebe389b0b541343a4",
+        "size": 116,
+        "type": "RT_STRING"
+      },
+      {
+        "codepage": 1252,
+        "file_offset": 501432,
+        "language": 1045,
+        "name": "1",
+        "rva": "0x1208b8",
+        "sha256": "b6f304e7403277f4ef61938736ec77275d9adde90f25b755161d7f03bd0b3012",
+        "size": 844,
+        "type": "RT_VERSION"
+      }
+    ],
+    "icon_groups": [
+      {
+        "icons": [
+          {
+            "bit_count": 32,
+            "bytes": 111614,
+            "height": 256,
+            "icon_id": 1,
+            "width": 256
+          },
+          {
+            "bit_count": 32,
+            "bytes": 6553,
+            "height": 48,
+            "icon_id": 2,
+            "width": 48
+          },
+          {
+            "bit_count": 32,
+            "bytes": 4264,
+            "height": 32,
+            "icon_id": 3,
+            "width": 32
+          },
+          {
+            "bit_count": 32,
+            "bytes": 1128,
+            "height": 16,
+            "icon_id": 4,
+            "width": 16
+          }
+        ],
+        "name": "132"
+      }
+    ],
+    "manifest": "<assembly xmlns=\"urn:schemas-microsoft-com:asm.v1\" manifestVersion=\"1.0\">\r\n<compatibility xmlns=\"urn:schemas-microsoft-com:compatibility.v1\">\r\n    <application>\r\n        <!-- The ID below indicates application support for Windows Vista -->\r\n        <supportedOS Id=\"{e2011457-1546-43c5-a5fe-008deee3d3f0}\"></supportedOS>\r\n        <!-- The ID below indicates application support for Windows 7 -->\r\n        <supportedOS Id=\"{35138b9a-5d96-4fbd-8e2d-a2440225f93a}\"></supportedOS>\r\n        <!-- The ID below indicates application support for Windows 8 -->\r\n        <supportedOS Id=\"{4a2f28e3-53b9-4441-ba9c-d69d4a4a6e38}\"></supportedOS>\r\n        <!-- The ID below indicates application support for Windows 8.1 -->\r\n        <supportedOS Id=\"{1f676c76-80e1-4239-95bb-83d0f6d0da78}\"></supportedOS>\r\n        <!-- The ID below indicates application support for Windows 10 -->\r\n        <supportedOS Id=\"{8e0f7a12-bfb3-4fe8-b9a5-48fd50a15a9a}\"></supportedOS>\r\n    </application>\r\n</compatibility>\r\n  <trustInfo xmlns=\"urn:schemas-microsoft-com:asm.v3\">\r\n    <security>\r\n      <requestedPrivileges>\r\n        <requestedExecutionLevel level=\"asInvoker\" uiAccess=\"false\"></requestedExecutionLevel>\r\n      </requestedPrivileges>\r\n    </security>\r\n  </trustInfo>\r\n</assembly>",
+    "truncated": false,
+    "version": {
+      "file_version": "2.0.0.2",
+      "product_version": "2.0.0.2",
+      "strings": {
+        "CompanyName": "GOG Sp. z o.o.",
+        "FileDescription": "Empire Earth 2 Gold Edition",
+        "FileVersion": "2.0.0.2",
+        "InternalName": "GOG Galaxy - Game Installer.exe",
+        "LegalCopyright": "(C) GOG Sp. z o.o. 2020",
+        "ProductName": "Empire Earth 2 Gold Edition",
+        "ProductVersion": "2.0.0.2"
+      }
+    }
+  },
+  "summary": "25 resources, 1 icon groups, product \"Empire Earth 2 Gold Edition\".",
+  "confidence": "observed",
+  "authority": "original-files",
+  "environment": {
+    "clean_room": false,
+    "engine": "builtin",
+    "engine_version": "0.6.1",
+    "host": "linux-x86_64"
+  },
+  "limitations": [],
+  "coverage": {
+    "status": "complete",
+    "examined": 25,
+    "total": 25
+  },
+  "locations": [],
+  "links": []
+}

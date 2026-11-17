@@ -1,0 +1,863 @@
+{
+ "version": 1,
+ "values": [
+  {
+   "name": "map size",
+   "group": "map",
+   "value": "3840x2560",
+   "unit": "px",
+   "estimated": true,
+   "looked_in": "decompiled the only program in the folder (GOG Galaxy installer, main routine FUN_0041efe5 @ 0x41efe5): no gameplay code or data; game files absent"
+  },
+  {
+   "name": "grid cell",
+   "group": "map",
+   "value": 32,
+   "unit": "px",
+   "estimated": true,
+   "looked_in": "decompiled the only program in the folder (GOG Galaxy installer, main routine FUN_0041efe5 @ 0x41efe5): no gameplay code or data; game files absent"
+  },
+  {
+   "name": "starting food",
+   "group": "economy",
+   "value": 200,
+   "estimated": true,
+   "looked_in": "decompiled the only program in the folder (GOG Galaxy installer, main routine FUN_0041efe5 @ 0x41efe5): no gameplay code or data; game files absent"
+  },
+  {
+   "name": "starting wood",
+   "group": "economy",
+   "value": 200,
+   "estimated": true,
+   "looked_in": "decompiled the only program in the folder (GOG Galaxy installer, main routine FUN_0041efe5 @ 0x41efe5): no gameplay code or data; game files absent"
+  },
+  {
+   "name": "starting stone",
+   "group": "economy",
+   "value": 100,
+   "estimated": true,
+   "looked_in": "decompiled the only program in the folder (GOG Galaxy installer, main routine FUN_0041efe5 @ 0x41efe5): no gameplay code or data; game files absent"
+  },
+  {
+   "name": "starting gold",
+   "group": "economy",
+   "value": 100,
+   "estimated": true,
+   "looked_in": "decompiled the only program in the folder (GOG Galaxy installer, main routine FUN_0041efe5 @ 0x41efe5): no gameplay code or data; game files absent"
+  },
+  {
+   "name": "starting villagers",
+   "group": "economy",
+   "value": 4,
+   "estimated": true,
+   "looked_in": "decompiled the only program in the folder (GOG Galaxy installer, main routine FUN_0041efe5 @ 0x41efe5): no gameplay code or data; game files absent"
+  },
+  {
+   "name": "carry capacity",
+   "group": "economy",
+   "value": 10,
+   "unit": "resource",
+   "estimated": true,
+   "looked_in": "decompiled the only program in the folder (GOG Galaxy installer, main routine FUN_0041efe5 @ 0x41efe5): no gameplay code or data; game files absent"
+  },
+  {
+   "name": "gather rate wood",
+   "group": "economy",
+   "value": 0.6,
+   "unit": "per s per villager",
+   "estimated": true,
+   "looked_in": "decompiled the only program in the folder (GOG Galaxy installer, main routine FUN_0041efe5 @ 0x41efe5): no gameplay code or data; game files absent"
+  },
+  {
+   "name": "gather rate berries (food)",
+   "group": "economy",
+   "value": 0.9,
+   "unit": "per s per villager",
+   "estimated": true,
+   "looked_in": "decompiled the only program in the folder (GOG Galaxy installer, main routine FUN_0041efe5 @ 0x41efe5): no gameplay code or data; game files absent"
+  },
+  {
+   "name": "gather rate farm (food)",
+   "group": "economy",
+   "value": 0.7,
+   "unit": "per s per villager",
+   "estimated": true,
+   "looked_in": "decompiled the only program in the folder (GOG Galaxy installer, main routine FUN_0041efe5 @ 0x41efe5): no gameplay code or data; game files absent"
+  },
+  {
+   "name": "gather rate stone",
+   "group": "economy",
+   "value": 0.45,
+   "unit": "per s per villager",
+   "estimated": true,
+   "looked_in": "decompiled the only program in the folder (GOG Galaxy installer, main routine FUN_0041efe5 @ 0x41efe5): no gameplay code or data; game files absent"
+  },
+  {
+   "name": "gather rate gold",
+   "group": "economy",
+   "value": 0.45,
+   "unit": "per s per villager",
+   "estimated": true,
+   "looked_in": "decompiled the only program in the folder (GOG Galaxy installer, main routine FUN_0041efe5 @ 0x41efe5): no gameplay code or data; game files absent"
+  },
+  {
+   "name": "population limit",
+   "group": "economy",
+   "value": 100,
+   "estimated": true,
+   "looked_in": "decompiled the only program in the folder (GOG Galaxy installer, main routine FUN_0041efe5 @ 0x41efe5): no gameplay code or data; game files absent"
+  },
+  {
+   "name": "population from town center",
+   "group": "economy",
+   "value": 10,
+   "estimated": true,
+   "looked_in": "decompiled the only program in the folder (GOG Galaxy installer, main routine FUN_0041efe5 @ 0x41efe5): no gameplay code or data; game files absent"
+  },
+  {
+   "name": "population from house",
+   "group": "economy",
+   "value": 5,
+   "estimated": true,
+   "looked_in": "decompiled the only program in the folder (GOG Galaxy installer, main routine FUN_0041efe5 @ 0x41efe5): no gameplay code or data; game files absent"
+  },
+  {
+   "name": "tree wood",
+   "group": "resources",
+   "value": 100,
+   "estimated": true,
+   "looked_in": "decompiled the only program in the folder (GOG Galaxy installer, main routine FUN_0041efe5 @ 0x41efe5): no gameplay code or data; game files absent"
+  },
+  {
+   "name": "berry bush food",
+   "group": "resources",
+   "value": 150,
+   "estimated": true,
+   "looked_in": "decompiled the only program in the folder (GOG Galaxy installer, main routine FUN_0041efe5 @ 0x41efe5): no gameplay code or data; game files absent"
+  },
+  {
+   "name": "stone deposit",
+   "group": "resources",
+   "value": 400,
+   "estimated": true,
+   "looked_in": "decompiled the only program in the folder (GOG Galaxy installer, main routine FUN_0041efe5 @ 0x41efe5): no gameplay code or data; game files absent"
+  },
+  {
+   "name": "gold deposit",
+   "group": "resources",
+   "value": 400,
+   "estimated": true,
+   "looked_in": "decompiled the only program in the folder (GOG Galaxy installer, main routine FUN_0041efe5 @ 0x41efe5): no gameplay code or data; game files absent"
+  },
+  {
+   "name": "epochs",
+   "group": "epochs",
+   "value": 4,
+   "estimated": true,
+   "looked_in": "decompiled the only program in the folder (GOG Galaxy installer, main routine FUN_0041efe5 @ 0x41efe5): no gameplay code or data; game files absent"
+  },
+  {
+   "name": "Idade do Bronze cost",
+   "group": "epochs",
+   "value": "300 food, 150 wood",
+   "estimated": true,
+   "looked_in": "decompiled the only program in the folder (GOG Galaxy installer, main routine FUN_0041efe5 @ 0x41efe5): no gameplay code or data; game files absent"
+  },
+  {
+   "name": "Idade do Bronze research time",
+   "group": "epochs",
+   "value": 30,
+   "unit": "s",
+   "estimated": true,
+   "looked_in": "decompiled the only program in the folder (GOG Galaxy installer, main routine FUN_0041efe5 @ 0x41efe5): no gameplay code or data; game files absent"
+  },
+  {
+   "name": "Idade do Ferro cost",
+   "group": "epochs",
+   "value": "600 food, 300 wood, 200 gold",
+   "estimated": true,
+   "looked_in": "decompiled the only program in the folder (GOG Galaxy installer, main routine FUN_0041efe5 @ 0x41efe5): no gameplay code or data; game files absent"
+  },
+  {
+   "name": "Idade do Ferro research time",
+   "group": "epochs",
+   "value": 40,
+   "unit": "s",
+   "estimated": true,
+   "looked_in": "decompiled the only program in the folder (GOG Galaxy installer, main routine FUN_0041efe5 @ 0x41efe5): no gameplay code or data; game files absent"
+  },
+  {
+   "name": "Idade Medieval cost",
+   "group": "epochs",
+   "value": "800 food, 400 stone, 400 gold",
+   "estimated": true,
+   "looked_in": "decompiled the only program in the folder (GOG Galaxy installer, main routine FUN_0041efe5 @ 0x41efe5): no gameplay code or data; game files absent"
+  },
+  {
+   "name": "Idade Medieval research time",
+   "group": "epochs",
+   "value": 50,
+   "unit": "s",
+   "estimated": true,
+   "looked_in": "decompiled the only program in the folder (GOG Galaxy installer, main routine FUN_0041efe5 @ 0x41efe5): no gameplay code or data; game files absent"
+  },
+  {
+   "name": "military hp and attack bonus per epoch",
+   "group": "epochs",
+   "value": 0.15,
+   "unit": "share",
+   "estimated": true,
+   "looked_in": "decompiled the only program in the folder (GOG Galaxy installer, main routine FUN_0041efe5 @ 0x41efe5): no gameplay code or data; game files absent"
+  },
+  {
+   "name": "Aldeão hit points",
+   "group": "unit Aldeão",
+   "value": 50,
+   "estimated": true,
+   "looked_in": "decompiled the only program in the folder (GOG Galaxy installer, main routine FUN_0041efe5 @ 0x41efe5): no gameplay code or data; game files absent"
+  },
+  {
+   "name": "Aldeão attack",
+   "group": "unit Aldeão",
+   "value": 3,
+   "unit": "damage",
+   "estimated": true,
+   "looked_in": "decompiled the only program in the folder (GOG Galaxy installer, main routine FUN_0041efe5 @ 0x41efe5): no gameplay code or data; game files absent"
+  },
+  {
+   "name": "Aldeão range",
+   "group": "unit Aldeão",
+   "value": 12,
+   "unit": "px",
+   "estimated": true,
+   "looked_in": "decompiled the only program in the folder (GOG Galaxy installer, main routine FUN_0041efe5 @ 0x41efe5): no gameplay code or data; game files absent"
+  },
+  {
+   "name": "Aldeão attack interval",
+   "group": "unit Aldeão",
+   "value": 1.5,
+   "unit": "s",
+   "estimated": true,
+   "looked_in": "decompiled the only program in the folder (GOG Galaxy installer, main routine FUN_0041efe5 @ 0x41efe5): no gameplay code or data; game files absent"
+  },
+  {
+   "name": "Aldeão speed",
+   "group": "unit Aldeão",
+   "value": 70,
+   "unit": "px/s",
+   "estimated": true,
+   "looked_in": "decompiled the only program in the folder (GOG Galaxy installer, main routine FUN_0041efe5 @ 0x41efe5): no gameplay code or data; game files absent"
+  },
+  {
+   "name": "Aldeão cost",
+   "group": "unit Aldeão",
+   "value": "50 food",
+   "estimated": true,
+   "looked_in": "decompiled the only program in the folder (GOG Galaxy installer, main routine FUN_0041efe5 @ 0x41efe5): no gameplay code or data; game files absent"
+  },
+  {
+   "name": "Aldeão train time",
+   "group": "unit Aldeão",
+   "value": 10,
+   "unit": "s",
+   "estimated": true,
+   "looked_in": "decompiled the only program in the folder (GOG Galaxy installer, main routine FUN_0041efe5 @ 0x41efe5): no gameplay code or data; game files absent"
+  },
+  {
+   "name": "Aldeão unlock epoch",
+   "group": "unit Aldeão",
+   "value": 0,
+   "estimated": true,
+   "looked_in": "decompiled the only program in the folder (GOG Galaxy installer, main routine FUN_0041efe5 @ 0x41efe5): no gameplay code or data; game files absent"
+  },
+  {
+   "name": "Lanceiro hit points",
+   "group": "unit Lanceiro",
+   "value": 110,
+   "estimated": true,
+   "looked_in": "decompiled the only program in the folder (GOG Galaxy installer, main routine FUN_0041efe5 @ 0x41efe5): no gameplay code or data; game files absent"
+  },
+  {
+   "name": "Lanceiro attack",
+   "group": "unit Lanceiro",
+   "value": 9,
+   "unit": "damage",
+   "estimated": true,
+   "looked_in": "decompiled the only program in the folder (GOG Galaxy installer, main routine FUN_0041efe5 @ 0x41efe5): no gameplay code or data; game files absent"
+  },
+  {
+   "name": "Lanceiro range",
+   "group": "unit Lanceiro",
+   "value": 14,
+   "unit": "px",
+   "estimated": true,
+   "looked_in": "decompiled the only program in the folder (GOG Galaxy installer, main routine FUN_0041efe5 @ 0x41efe5): no gameplay code or data; game files absent"
+  },
+  {
+   "name": "Lanceiro attack interval",
+   "group": "unit Lanceiro",
+   "value": 1.2,
+   "unit": "s",
+   "estimated": true,
+   "looked_in": "decompiled the only program in the folder (GOG Galaxy installer, main routine FUN_0041efe5 @ 0x41efe5): no gameplay code or data; game files absent"
+  },
+  {
+   "name": "Lanceiro speed",
+   "group": "unit Lanceiro",
+   "value": 75,
+   "unit": "px/s",
+   "estimated": true,
+   "looked_in": "decompiled the only program in the folder (GOG Galaxy installer, main routine FUN_0041efe5 @ 0x41efe5): no gameplay code or data; game files absent"
+  },
+  {
+   "name": "Lanceiro cost",
+   "group": "unit Lanceiro",
+   "value": "50 food 25 wood",
+   "estimated": true,
+   "looked_in": "decompiled the only program in the folder (GOG Galaxy installer, main routine FUN_0041efe5 @ 0x41efe5): no gameplay code or data; game files absent"
+  },
+  {
+   "name": "Lanceiro train time",
+   "group": "unit Lanceiro",
+   "value": 14,
+   "unit": "s",
+   "estimated": true,
+   "looked_in": "decompiled the only program in the folder (GOG Galaxy installer, main routine FUN_0041efe5 @ 0x41efe5): no gameplay code or data; game files absent"
+  },
+  {
+   "name": "Lanceiro unlock epoch",
+   "group": "unit Lanceiro",
+   "value": 0,
+   "estimated": true,
+   "looked_in": "decompiled the only program in the folder (GOG Galaxy installer, main routine FUN_0041efe5 @ 0x41efe5): no gameplay code or data; game files absent"
+  },
+  {
+   "name": "Arqueiro hit points",
+   "group": "unit Arqueiro",
+   "value": 70,
+   "estimated": true,
+   "looked_in": "decompiled the only program in the folder (GOG Galaxy installer, main routine FUN_0041efe5 @ 0x41efe5): no gameplay code or data; game files absent"
+  },
+  {
+   "name": "Arqueiro attack",
+   "group": "unit Arqueiro",
+   "value": 7,
+   "unit": "damage",
+   "estimated": true,
+   "looked_in": "decompiled the only program in the folder (GOG Galaxy installer, main routine FUN_0041efe5 @ 0x41efe5): no gameplay code or data; game files absent"
+  },
+  {
+   "name": "Arqueiro range",
+   "group": "unit Arqueiro",
+   "value": 180,
+   "unit": "px",
+   "estimated": true,
+   "looked_in": "decompiled the only program in the folder (GOG Galaxy installer, main routine FUN_0041efe5 @ 0x41efe5): no gameplay code or data; game files absent"
+  },
+  {
+   "name": "Arqueiro attack interval",
+   "group": "unit Arqueiro",
+   "value": 1.6,
+   "unit": "s",
+   "estimated": true,
+   "looked_in": "decompiled the only program in the folder (GOG Galaxy installer, main routine FUN_0041efe5 @ 0x41efe5): no gameplay code or data; game files absent"
+  },
+  {
+   "name": "Arqueiro speed",
+   "group": "unit Arqueiro",
+   "value": 75,
+   "unit": "px/s",
+   "estimated": true,
+   "looked_in": "decompiled the only program in the folder (GOG Galaxy installer, main routine FUN_0041efe5 @ 0x41efe5): no gameplay code or data; game files absent"
+  },
+  {
+   "name": "Arqueiro cost",
+   "group": "unit Arqueiro",
+   "value": "40 wood 30 gold",
+   "estimated": true,
+   "looked_in": "decompiled the only program in the folder (GOG Galaxy installer, main routine FUN_0041efe5 @ 0x41efe5): no gameplay code or data; game files absent"
+  },
+  {
+   "name": "Arqueiro train time",
+   "group": "unit Arqueiro",
+   "value": 15,
+   "unit": "s",
+   "estimated": true,
+   "looked_in": "decompiled the only program in the folder (GOG Galaxy installer, main routine FUN_0041efe5 @ 0x41efe5): no gameplay code or data; game files absent"
+  },
+  {
+   "name": "Arqueiro unlock epoch",
+   "group": "unit Arqueiro",
+   "value": 1,
+   "estimated": true,
+   "looked_in": "decompiled the only program in the folder (GOG Galaxy installer, main routine FUN_0041efe5 @ 0x41efe5): no gameplay code or data; game files absent"
+  },
+  {
+   "name": "Cavaleiro hit points",
+   "group": "unit Cavaleiro",
+   "value": 160,
+   "estimated": true,
+   "looked_in": "decompiled the only program in the folder (GOG Galaxy installer, main routine FUN_0041efe5 @ 0x41efe5): no gameplay code or data; game files absent"
+  },
+  {
+   "name": "Cavaleiro attack",
+   "group": "unit Cavaleiro",
+   "value": 11,
+   "unit": "damage",
+   "estimated": true,
+   "looked_in": "decompiled the only program in the folder (GOG Galaxy installer, main routine FUN_0041efe5 @ 0x41efe5): no gameplay code or data; game files absent"
+  },
+  {
+   "name": "Cavaleiro range",
+   "group": "unit Cavaleiro",
+   "value": 16,
+   "unit": "px",
+   "estimated": true,
+   "looked_in": "decompiled the only program in the folder (GOG Galaxy installer, main routine FUN_0041efe5 @ 0x41efe5): no gameplay code or data; game files absent"
+  },
+  {
+   "name": "Cavaleiro attack interval",
+   "group": "unit Cavaleiro",
+   "value": 1.4,
+   "unit": "s",
+   "estimated": true,
+   "looked_in": "decompiled the only program in the folder (GOG Galaxy installer, main routine FUN_0041efe5 @ 0x41efe5): no gameplay code or data; game files absent"
+  },
+  {
+   "name": "Cavaleiro speed",
+   "group": "unit Cavaleiro",
+   "value": 120,
+   "unit": "px/s",
+   "estimated": true,
+   "looked_in": "decompiled the only program in the folder (GOG Galaxy installer, main routine FUN_0041efe5 @ 0x41efe5): no gameplay code or data; game files absent"
+  },
+  {
+   "name": "Cavaleiro cost",
+   "group": "unit Cavaleiro",
+   "value": "80 food 60 gold",
+   "estimated": true,
+   "looked_in": "decompiled the only program in the folder (GOG Galaxy installer, main routine FUN_0041efe5 @ 0x41efe5): no gameplay code or data; game files absent"
+  },
+  {
+   "name": "Cavaleiro train time",
+   "group": "unit Cavaleiro",
+   "value": 20,
+   "unit": "s",
+   "estimated": true,
+   "looked_in": "decompiled the only program in the folder (GOG Galaxy installer, main routine FUN_0041efe5 @ 0x41efe5): no gameplay code or data; game files absent"
+  },
+  {
+   "name": "Cavaleiro unlock epoch",
+   "group": "unit Cavaleiro",
+   "value": 2,
+   "estimated": true,
+   "looked_in": "decompiled the only program in the folder (GOG Galaxy installer, main routine FUN_0041efe5 @ 0x41efe5): no gameplay code or data; game files absent"
+  },
+  {
+   "name": "Catapulta hit points",
+   "group": "unit Catapulta",
+   "value": 150,
+   "estimated": true,
+   "looked_in": "decompiled the only program in the folder (GOG Galaxy installer, main routine FUN_0041efe5 @ 0x41efe5): no gameplay code or data; game files absent"
+  },
+  {
+   "name": "Catapulta attack",
+   "group": "unit Catapulta",
+   "value": 40,
+   "unit": "damage",
+   "estimated": true,
+   "looked_in": "decompiled the only program in the folder (GOG Galaxy installer, main routine FUN_0041efe5 @ 0x41efe5): no gameplay code or data; game files absent"
+  },
+  {
+   "name": "Catapulta range",
+   "group": "unit Catapulta",
+   "value": 260,
+   "unit": "px",
+   "estimated": true,
+   "looked_in": "decompiled the only program in the folder (GOG Galaxy installer, main routine FUN_0041efe5 @ 0x41efe5): no gameplay code or data; game files absent"
+  },
+  {
+   "name": "Catapulta attack interval",
+   "group": "unit Catapulta",
+   "value": 4.0,
+   "unit": "s",
+   "estimated": true,
+   "looked_in": "decompiled the only program in the folder (GOG Galaxy installer, main routine FUN_0041efe5 @ 0x41efe5): no gameplay code or data; game files absent"
+  },
+  {
+   "name": "Catapulta speed",
+   "group": "unit Catapulta",
+   "value": 45,
+   "unit": "px/s",
+   "estimated": true,
+   "looked_in": "decompiled the only program in the folder (GOG Galaxy installer, main routine FUN_0041efe5 @ 0x41efe5): no gameplay code or data; game files absent"
+  },
+  {
+   "name": "Catapulta cost",
+   "group": "unit Catapulta",
+   "value": "150 wood 120 gold",
+   "estimated": true,
+   "looked_in": "decompiled the only program in the folder (GOG Galaxy installer, main routine FUN_0041efe5 @ 0x41efe5): no gameplay code or data; game files absent"
+  },
+  {
+   "name": "Catapulta train time",
+   "group": "unit Catapulta",
+   "value": 30,
+   "unit": "s",
+   "estimated": true,
+   "looked_in": "decompiled the only program in the folder (GOG Galaxy installer, main routine FUN_0041efe5 @ 0x41efe5): no gameplay code or data; game files absent"
+  },
+  {
+   "name": "Catapulta unlock epoch",
+   "group": "unit Catapulta",
+   "value": 3,
+   "estimated": true,
+   "looked_in": "decompiled the only program in the folder (GOG Galaxy installer, main routine FUN_0041efe5 @ 0x41efe5): no gameplay code or data; game files absent"
+  },
+  {
+   "name": "spear vs cavalry",
+   "group": "counters",
+   "value": 2.5,
+   "unit": "x",
+   "estimated": true,
+   "looked_in": "decompiled the only program in the folder (GOG Galaxy installer, main routine FUN_0041efe5 @ 0x41efe5): no gameplay code or data; game files absent"
+  },
+  {
+   "name": "archer vs infantry",
+   "group": "counters",
+   "value": 1.5,
+   "unit": "x",
+   "estimated": true,
+   "looked_in": "decompiled the only program in the folder (GOG Galaxy installer, main routine FUN_0041efe5 @ 0x41efe5): no gameplay code or data; game files absent"
+  },
+  {
+   "name": "cavalry vs archer",
+   "group": "counters",
+   "value": 2.0,
+   "unit": "x",
+   "estimated": true,
+   "looked_in": "decompiled the only program in the folder (GOG Galaxy installer, main routine FUN_0041efe5 @ 0x41efe5): no gameplay code or data; game files absent"
+  },
+  {
+   "name": "cavalry vs siege",
+   "group": "counters",
+   "value": 2.0,
+   "unit": "x",
+   "estimated": true,
+   "looked_in": "decompiled the only program in the folder (GOG Galaxy installer, main routine FUN_0041efe5 @ 0x41efe5): no gameplay code or data; game files absent"
+  },
+  {
+   "name": "catapult vs building",
+   "group": "counters",
+   "value": 3.0,
+   "unit": "x",
+   "estimated": true,
+   "looked_in": "decompiled the only program in the folder (GOG Galaxy installer, main routine FUN_0041efe5 @ 0x41efe5): no gameplay code or data; game files absent"
+  },
+  {
+   "name": "non-siege damage vs buildings",
+   "group": "counters",
+   "value": 0.35,
+   "unit": "x",
+   "estimated": true,
+   "looked_in": "decompiled the only program in the folder (GOG Galaxy installer, main routine FUN_0041efe5 @ 0x41efe5): no gameplay code or data; game files absent"
+  },
+  {
+   "name": "Centro da Cidade hit points",
+   "group": "building Centro da Cidade",
+   "value": 2400,
+   "estimated": true,
+   "looked_in": "decompiled the only program in the folder (GOG Galaxy installer, main routine FUN_0041efe5 @ 0x41efe5): no gameplay code or data; game files absent"
+  },
+  {
+   "name": "Centro da Cidade cost",
+   "group": "building Centro da Cidade",
+   "value": "300 wood 200 stone",
+   "estimated": true,
+   "looked_in": "decompiled the only program in the folder (GOG Galaxy installer, main routine FUN_0041efe5 @ 0x41efe5): no gameplay code or data; game files absent"
+  },
+  {
+   "name": "Centro da Cidade build time (1 villager)",
+   "group": "building Centro da Cidade",
+   "value": 60,
+   "unit": "s",
+   "estimated": true,
+   "looked_in": "decompiled the only program in the folder (GOG Galaxy installer, main routine FUN_0041efe5 @ 0x41efe5): no gameplay code or data; game files absent"
+  },
+  {
+   "name": "Centro da Cidade size",
+   "group": "building Centro da Cidade",
+   "value": "4x4",
+   "unit": "cells",
+   "estimated": true,
+   "looked_in": "decompiled the only program in the folder (GOG Galaxy installer, main routine FUN_0041efe5 @ 0x41efe5): no gameplay code or data; game files absent"
+  },
+  {
+   "name": "Casa hit points",
+   "group": "building Casa",
+   "value": 400,
+   "estimated": true,
+   "looked_in": "decompiled the only program in the folder (GOG Galaxy installer, main routine FUN_0041efe5 @ 0x41efe5): no gameplay code or data; game files absent"
+  },
+  {
+   "name": "Casa cost",
+   "group": "building Casa",
+   "value": "40 wood",
+   "estimated": true,
+   "looked_in": "decompiled the only program in the folder (GOG Galaxy installer, main routine FUN_0041efe5 @ 0x41efe5): no gameplay code or data; game files absent"
+  },
+  {
+   "name": "Casa build time (1 villager)",
+   "group": "building Casa",
+   "value": 15,
+   "unit": "s",
+   "estimated": true,
+   "looked_in": "decompiled the only program in the folder (GOG Galaxy installer, main routine FUN_0041efe5 @ 0x41efe5): no gameplay code or data; game files absent"
+  },
+  {
+   "name": "Casa size",
+   "group": "building Casa",
+   "value": "2x2",
+   "unit": "cells",
+   "estimated": true,
+   "looked_in": "decompiled the only program in the folder (GOG Galaxy installer, main routine FUN_0041efe5 @ 0x41efe5): no gameplay code or data; game files absent"
+  },
+  {
+   "name": "Quartel hit points",
+   "group": "building Quartel",
+   "value": 1000,
+   "estimated": true,
+   "looked_in": "decompiled the only program in the folder (GOG Galaxy installer, main routine FUN_0041efe5 @ 0x41efe5): no gameplay code or data; game files absent"
+  },
+  {
+   "name": "Quartel cost",
+   "group": "building Quartel",
+   "value": "150 wood",
+   "estimated": true,
+   "looked_in": "decompiled the only program in the folder (GOG Galaxy installer, main routine FUN_0041efe5 @ 0x41efe5): no gameplay code or data; game files absent"
+  },
+  {
+   "name": "Quartel build time (1 villager)",
+   "group": "building Quartel",
+   "value": 30,
+   "unit": "s",
+   "estimated": true,
+   "looked_in": "decompiled the only program in the folder (GOG Galaxy installer, main routine FUN_0041efe5 @ 0x41efe5): no gameplay code or data; game files absent"
+  },
+  {
+   "name": "Quartel size",
+   "group": "building Quartel",
+   "value": "3x3",
+   "unit": "cells",
+   "estimated": true,
+   "looked_in": "decompiled the only program in the folder (GOG Galaxy installer, main routine FUN_0041efe5 @ 0x41efe5): no gameplay code or data; game files absent"
+  },
+  {
+   "name": "Depósito hit points",
+   "group": "building Depósito",
+   "value": 500,
+   "estimated": true,
+   "looked_in": "decompiled the only program in the folder (GOG Galaxy installer, main routine FUN_0041efe5 @ 0x41efe5): no gameplay code or data; game files absent"
+  },
+  {
+   "name": "Depósito cost",
+   "group": "building Depósito",
+   "value": "100 wood",
+   "estimated": true,
+   "looked_in": "decompiled the only program in the folder (GOG Galaxy installer, main routine FUN_0041efe5 @ 0x41efe5): no gameplay code or data; game files absent"
+  },
+  {
+   "name": "Depósito build time (1 villager)",
+   "group": "building Depósito",
+   "value": 20,
+   "unit": "s",
+   "estimated": true,
+   "looked_in": "decompiled the only program in the folder (GOG Galaxy installer, main routine FUN_0041efe5 @ 0x41efe5): no gameplay code or data; game files absent"
+  },
+  {
+   "name": "Depósito size",
+   "group": "building Depósito",
+   "value": "2x2",
+   "unit": "cells",
+   "estimated": true,
+   "looked_in": "decompiled the only program in the folder (GOG Galaxy installer, main routine FUN_0041efe5 @ 0x41efe5): no gameplay code or data; game files absent"
+  },
+  {
+   "name": "Fazenda hit points",
+   "group": "building Fazenda",
+   "value": 200,
+   "estimated": true,
+   "looked_in": "decompiled the only program in the folder (GOG Galaxy installer, main routine FUN_0041efe5 @ 0x41efe5): no gameplay code or data; game files absent"
+  },
+  {
+   "name": "Fazenda cost",
+   "group": "building Fazenda",
+   "value": "60 wood",
+   "estimated": true,
+   "looked_in": "decompiled the only program in the folder (GOG Galaxy installer, main routine FUN_0041efe5 @ 0x41efe5): no gameplay code or data; game files absent"
+  },
+  {
+   "name": "Fazenda build time (1 villager)",
+   "group": "building Fazenda",
+   "value": 12,
+   "unit": "s",
+   "estimated": true,
+   "looked_in": "decompiled the only program in the folder (GOG Galaxy installer, main routine FUN_0041efe5 @ 0x41efe5): no gameplay code or data; game files absent"
+  },
+  {
+   "name": "Fazenda size",
+   "group": "building Fazenda",
+   "value": "3x3",
+   "unit": "cells",
+   "estimated": true,
+   "looked_in": "decompiled the only program in the folder (GOG Galaxy installer, main routine FUN_0041efe5 @ 0x41efe5): no gameplay code or data; game files absent"
+  },
+  {
+   "name": "Torre hit points",
+   "group": "building Torre",
+   "value": 900,
+   "estimated": true,
+   "looked_in": "decompiled the only program in the folder (GOG Galaxy installer, main routine FUN_0041efe5 @ 0x41efe5): no gameplay code or data; game files absent"
+  },
+  {
+   "name": "Torre cost",
+   "group": "building Torre",
+   "value": "50 wood 100 stone",
+   "estimated": true,
+   "looked_in": "decompiled the only program in the folder (GOG Galaxy installer, main routine FUN_0041efe5 @ 0x41efe5): no gameplay code or data; game files absent"
+  },
+  {
+   "name": "Torre build time (1 villager)",
+   "group": "building Torre",
+   "value": 30,
+   "unit": "s",
+   "estimated": true,
+   "looked_in": "decompiled the only program in the folder (GOG Galaxy installer, main routine FUN_0041efe5 @ 0x41efe5): no gameplay code or data; game files absent"
+  },
+  {
+   "name": "Torre size",
+   "group": "building Torre",
+   "value": "2x2",
+   "unit": "cells",
+   "estimated": true,
+   "looked_in": "decompiled the only program in the folder (GOG Galaxy installer, main routine FUN_0041efe5 @ 0x41efe5): no gameplay code or data; game files absent"
+  },
+  {
+   "name": "town center arrows",
+   "group": "building Centro da Cidade",
+   "value": "6 damage every 2 s, 210 px",
+   "estimated": true,
+   "looked_in": "decompiled the only program in the folder (GOG Galaxy installer, main routine FUN_0041efe5 @ 0x41efe5): no gameplay code or data; game files absent"
+  },
+  {
+   "name": "tower arrows",
+   "group": "building Torre",
+   "value": "8 damage every 1.8 s, 230 px, unlocked in Bronze",
+   "estimated": true,
+   "looked_in": "decompiled the only program in the folder (GOG Galaxy installer, main routine FUN_0041efe5 @ 0x41efe5): no gameplay code or data; game files absent"
+  },
+  {
+   "name": "victory",
+   "group": "rules",
+   "value": "destroy the enemy Town Center",
+   "estimated": true,
+   "looked_in": "decompiled the only program in the folder (GOG Galaxy installer, main routine FUN_0041efe5 @ 0x41efe5): no gameplay code or data; game files absent"
+  },
+  {
+   "name": "computer first attack (Normal)",
+   "group": "computer",
+   "value": 300,
+   "unit": "s",
+   "estimated": true,
+   "looked_in": "decompiled the only program in the folder (GOG Galaxy installer, main routine FUN_0041efe5 @ 0x41efe5): no gameplay code or data; game files absent"
+  },
+  {
+   "name": "computer first wave size (Normal)",
+   "group": "computer",
+   "value": 6,
+   "unit": "units",
+   "estimated": true,
+   "looked_in": "decompiled the only program in the folder (GOG Galaxy installer, main routine FUN_0041efe5 @ 0x41efe5): no gameplay code or data; game files absent"
+  },
+  {
+   "name": "computer wave growth (Normal)",
+   "group": "computer",
+   "value": 3,
+   "unit": "units",
+   "estimated": true,
+   "looked_in": "decompiled the only program in the folder (GOG Galaxy installer, main routine FUN_0041efe5 @ 0x41efe5): no gameplay code or data; game files absent"
+  },
+  {
+   "name": "computer time between waves",
+   "group": "computer",
+   "value": 150,
+   "unit": "s",
+   "estimated": true,
+   "looked_in": "decompiled the only program in the folder (GOG Galaxy installer, main routine FUN_0041efe5 @ 0x41efe5): no gameplay code or data; game files absent"
+  },
+  {
+   "name": "computer villager target (Normal)",
+   "group": "computer",
+   "value": 18,
+   "unit": "+4 per epoch",
+   "estimated": true,
+   "looked_in": "decompiled the only program in the folder (GOG Galaxy installer, main routine FUN_0041efe5 @ 0x41efe5): no gameplay code or data; game files absent"
+  },
+  {
+   "name": "computer gather speed Easy/Normal/Hard",
+   "group": "computer",
+   "value": "0.8 / 1.0 / 1.2",
+   "estimated": true,
+   "looked_in": "decompiled the only program in the folder (GOG Galaxy installer, main routine FUN_0041efe5 @ 0x41efe5): no gameplay code or data; game files absent"
+  },
+  {
+   "name": "select",
+   "group": "controls",
+   "value": "tap",
+   "estimated": true,
+   "looked_in": "decompiled the only program in the folder (GOG Galaxy installer, main routine FUN_0041efe5 @ 0x41efe5): no gameplay code or data; game files absent"
+  },
+  {
+   "name": "command (move/attack/gather/build)",
+   "group": "controls",
+   "value": "tap with units selected",
+   "estimated": true,
+   "looked_in": "decompiled the only program in the folder (GOG Galaxy installer, main routine FUN_0041efe5 @ 0x41efe5): no gameplay code or data; game files absent"
+  },
+  {
+   "name": "camera pan",
+   "group": "controls",
+   "value": "one-finger drag",
+   "estimated": true,
+   "looked_in": "decompiled the only program in the folder (GOG Galaxy installer, main routine FUN_0041efe5 @ 0x41efe5): no gameplay code or data; game files absent"
+  },
+  {
+   "name": "zoom",
+   "group": "controls",
+   "value": "pinch (0.45x - 2.2x)",
+   "estimated": true,
+   "looked_in": "decompiled the only program in the folder (GOG Galaxy installer, main routine FUN_0041efe5 @ 0x41efe5): no gameplay code or data; game files absent"
+  },
+  {
+   "name": "box select",
+   "group": "controls",
+   "value": "hold 0.4 s then drag",
+   "estimated": true,
+   "looked_in": "decompiled the only program in the folder (GOG Galaxy installer, main routine FUN_0041efe5 @ 0x41efe5): no gameplay code or data; game files absent"
+  },
+  {
+   "name": "select same kind",
+   "group": "controls",
+   "value": "double tap",
+   "estimated": true,
+   "looked_in": "decompiled the only program in the folder (GOG Galaxy installer, main routine FUN_0041efe5 @ 0x41efe5): no gameplay code or data; game files absent"
+  },
+  {
+   "name": "orientation",
+   "group": "device",
+   "value": "landscape (Galaxy A56, 2340x1080)",
+   "estimated": true,
+   "looked_in": "decompiled the only program in the folder (GOG Galaxy installer, main routine FUN_0041efe5 @ 0x41efe5): no gameplay code or data; game files absent"
+  }
+ ]
+}

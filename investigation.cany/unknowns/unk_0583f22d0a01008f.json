@@ -1,0 +1,20 @@
+{
+  "id": "unk_0583f22d0a01008f",
+  "revision": 3,
+  "question": "Where are the game's own files (EE2.exe, zips/db.zip with unit stats, textures, sounds)? The target folder only holds a GOG Galaxy downloader stub and a Lutris install script.",
+  "severity": "high",
+  "domain": "game-files",
+  "status": "blocked",
+  "probes": [
+    "Point Craft Anything at the installed game folder (drive_c/Program Files (x86)/Sierra/Empire Earth II)",
+    "Read zips/db.zip unit/building tables"
+  ],
+  "evidence_for": [
+    "ev_11f4396b1c11b08ed02a408600b05be375a36670907c63f4df46669d238bcad7",
+    "ev_099c9e7da60e7f1cf6c1a6aae7bff675cdb7789a7e29fc622766ac0cd5e5cba3",
+    "ev_8aee1fad9567b11ac2ad709bb4e16bf6b188404da5870efebc164045cc5ecb85",
+    "ev_2a1b0b8652e22225482ce6ef5b1efb4e9f8604defa5af86250278c2c7a28167f"
+  ],
+  "evidence_against": [],
+  "resolution": "The folder's only program was decompiled (UPX-unpacked; main FUN_0041efe5 @ 0x41efe5): it is the GOG Galaxy web-installer bootstrapper, with no game code or data (fnd_2). EE2.exe / db.zip are not anywhere in the home folder. All gameplay values stay estimated in MECHANICS.md / mechanics.json; this settles only if the installed game folder is provided."
+}

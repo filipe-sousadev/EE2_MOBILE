@@ -1,0 +1,105 @@
+{
+  "version": 5,
+  "name": "EE2",
+  "request": "Recriar o jogo para android mobile samsung a56",
+  "target": {
+    "kind": "local",
+    "path": "/home/ar1m4/Downloads/EE2/"
+  },
+  "stack": "Godot",
+  "status": "ready",
+  "note": "Ready: 4 of 5 checks pass, 6 of 6 claims hold; 1 comparison remains unverified. 1 question about the original is still open.",
+  "created_ms": 1794884124641,
+  "updated_ms": 1794886285477,
+  "checks": [
+    {
+      "round": 1,
+      "check": "build",
+      "passed": true,
+      "similarity": null,
+      "note": "Build succeeded.",
+      "artifacts": [],
+      "at_ms": 1794886260583
+    },
+    {
+      "round": 1,
+      "check": "app-screenshot",
+      "passed": true,
+      "similarity": null,
+      "note": "The program starts and draws (674×716).",
+      "artifacts": [
+        "checks/round-1/screenshot.png"
+      ],
+      "at_ms": 1794886265065
+    },
+    {
+      "round": 1,
+      "check": "game-self-test",
+      "passed": true,
+      "similarity": null,
+      "note": "The self-test plays the core loop: move (villager selected by tap: true; walked 264 px (8.3 m at 32 px = 1 m) toward the tapped spot), act (gather order true queued true; 2 villagers gathered 20 wood; town center trained a villager by its button (pop 4 -> 5); spearman ordered by tap dealt 70 damage to an enemy archer (killed: true)), hud (resources true, population 'Pop 6/15', epoch 'Idade do Bronze', minimap true, selection panel '5 unidades' with 7 buttons).",
+      "artifacts": [
+        "checks/round-1/self-test.json"
+      ],
+      "at_ms": 1794886285470,
+      "claims": [
+        {
+          "title": "In play, the player moves",
+          "passed": true
+        },
+        {
+          "title": "In play, the player's main action works",
+          "passed": true
+        },
+        {
+          "title": "In play, the on-screen information is drawn",
+          "passed": true
+        },
+        {
+          "title": "Self-test step \"build\"",
+          "passed": true
+        },
+        {
+          "title": "Self-test step \"epoch\"",
+          "passed": true
+        },
+        {
+          "title": "Self-test step \"ai\"",
+          "passed": true
+        }
+      ]
+    },
+    {
+      "round": 1,
+      "check": "mechanics",
+      "passed": true,
+      "similarity": null,
+      "note": "app/mechanics.json has 114 values (0 with a source, 114 estimated). The sheet is readable; its behavior is unverified. No runtime measurement was compared with these values. A source literal or a core-loop self-test alone cannot establish that the build uses them.",
+      "artifacts": [],
+      "at_ms": 1794886285473,
+      "unknowns": [
+        "Mechanics behavior has not been measured against app/mechanics.json."
+      ]
+    },
+    {
+      "round": 1,
+      "check": "credits",
+      "passed": true,
+      "similarity": null,
+      "note": "app/README.md says the build is for private use and app/CREDITS.md lists the original's files.",
+      "artifacts": [],
+      "at_ms": 1794886285473
+    }
+  ],
+  "agent_session": "7ab3c9d3-fcff-439a-9a8c-f43190978677",
+  "agent_session_by": "claude-code",
+  "agent_session_deep": true,
+  "capture_deep": true,
+  "allowed_actions": [],
+  "last_reply": "The only program in the folder is the GOG Galaxy downloader. I'll open it and decompile it as asked, and check whether any game rules are inside.The file changes are my own earlier edits. Now the overview and a string search in the program.The string search only finds the GOG installer's own version info (\"GOG Galaxy - Game Installer.exe\", \"URLDownloadToFileW\"). Now decompiling the program's functions.Both are inside the packed section, which is empty on disk, so there's nothing to read until it's unpacked. Unpacking a copy into a new evidence folder (the original stays untouched).Unpacked: it's GOG's \"GalaxyWebInstaller\". The only \"speed\" values are download speeds (Bs/Kbs/Mbs). I'll follow the one place the code uses the game's name, plus its web addresses.Now writing the decompilation results into the rules sheet and noting on each value where I looked.Build and self-test pass. Final check, then I'll update the notes.The check's own self-test run saved no report, even though my run passes. I'll try to reproduce it with a real window, which is how the check runs it.Everything passes again. Tidying up, re-exporting the phone file, and updating the records.Decompilei o único programa que veio na pasta, e não há nenhuma regra ou número do jogo dentro dele, então os valores do jogo continuam estimados. Esse arquivo não é o jogo: é só o \"instalador web\" do GOG Galaxy, cujo trabalho é baixar e instalar o Empire Earth II.\n\n- **O que fiz:** o arquivo vinha comprimido, então descompactei uma cópia (o original não foi alterado) e li o código.\n- **O que o código faz:** a rotina principal grava um registro de instalação, guarda o código do produto na GOG, verifica se o GOG Galaxy está instalado e abre o instalador de verdade.\n- **O que procurei:** dano, vida, ataque, épocas, aldeões, recursos e unidades. Só apareceram mensagens de erro do instalador e velocidades de download.\n- **O que fica faltando:** o jogo de verdade (o programa principal e o pacote com os dados das unidades) não está neste computador, então não havia nada a trocar no jogo.\n\nRegistrei tudo isso, com os endereços das funções lidas, na ficha de regras do jogo. Cada número da ficha agora diz onde eu procurei e que ele continua sendo uma estimativa.\n\nTambém deixei o modo de teste mais robusto. Uma das verificações automáticas não chegou a salvar o relatório uma vez. Agora o jogo continua funcionando mesmo com a janela coberta e sempre salva um relatório. O jogo foi recompilado, todas as verificações passaram de novo e gerei outra vez o arquivo de instalação para o Galaxy A56.\n\nSe você instalar o Empire Earth II (por exemplo pelo Lutris, como no script da pasta) e me indicar a pasta onde ele ficar, posso ler os dados reais das unidades e trocar as estimativas pelos números verdadeiros.",
+  "asset_budget_usd": 5.0,
+  "generate_assets": false,
+  "builder": "Claude Code",
+  "questions": "decide",
+  "decompiled": true
+}

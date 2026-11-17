@@ -1,0 +1,3 @@
+# Handoff
+
+Deep-mode decompile done: the target's only program is the UPX-packed GOG Galaxy web installer (unpacked copy in checks/unpacked/; main FUN_0041efe5 @0x41efe5 sets product id 1207658844, checks registry, extracts and launches .NET GalaxyWebInstaller). No gameplay code/data (fnd_2); MECHANICS.md has a Decompilation section; mechanics.json values stay estimated with a looked_in note. All rebuild_check checks pass (mechanics unverified by design). Test modes now disable vsync and have a 150 s watchdog. APK re-exported via app/tools/export_android.sh. Godot chdirs to the project with --path, so relative --self-test/--screenshot paths use $PWD if it exists. Next: real values need the installed game folder (EE2.exe, zips/db.zip).
